@@ -87,7 +87,7 @@ const BerkeleyStudents = () => (
                 find the Zoom links!</>}
             />
             <a href="https://forms.gle/LPvkFVJhR3Rz6ubK8" rel="noreferrer" target="_blank">
-                <Button src={require("../../images/courses/courses_button_1.png")}/>
+                <Button src={require("../../images/apply/apply_button.png")}/>
             </a>
             <ImageContainer>
                 <TimelineImage src={require("../../images/apply/berkeley_timeline_1.png")}/>

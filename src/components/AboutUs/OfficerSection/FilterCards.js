@@ -60,15 +60,17 @@ function FilterCards() {
   const [isProj, setIsProj] = useState(false);
   const [isEdu, setIsEdu] = useState(false);
   const [isAdv, setIsAdv] = useState(false);
+  const [isFound, setIsFound] = useState(false);
 
   const LoadComponent = async location => {
     const { default: component } = await import(`./${location}`);
     setComponent(component);
     setSelectedSomethingElse(true);
-    if (location === "ExecBoardCards") { setIsExec(true); setIsProj(false); setIsEdu(false); setIsAdv(false); }
-    if (location === "ProjectCards") { setIsExec(false); setIsProj(true); setIsEdu(false); setIsAdv(false); }
-    if (location === "EducationCards") { setIsExec(false); setIsProj(false); setIsEdu(true); setIsAdv(false); }
-    if (location === "AdvisorCards") { setIsExec(false); setIsProj(false); setIsEdu(false); setIsAdv(true); }
+    if (location === "ExecBoardCards") { setIsExec(true); setIsProj(false); setIsEdu(false); setIsAdv(false); setIsFound(false); }
+    if (location === "ProjectCards") { setIsExec(false); setIsProj(true); setIsEdu(false); setIsAdv(false); setIsFound(false); }
+    if (location === "EducationCards") { setIsExec(false); setIsProj(false); setIsEdu(true); setIsAdv(false); setIsFound(false); }
+    if (location === "AdvisorCards") { setIsExec(false); setIsProj(false); setIsEdu(false); setIsAdv(true); setIsFound(false); }
+    if (location === "FounderCards") { setIsExec(false); setIsProj(false); setIsEdu(false); setIsAdv(false); setIsFound(true); }
   };
 
   return (
@@ -79,6 +81,7 @@ function FilterCards() {
             <FilterItem style={isProj ? clicked : null} onClick={() => LoadComponent("ProjectCards")}>Projects</FilterItem>
             <FilterItem style={isEdu ? clicked : null} onClick={() => LoadComponent("EducationCards")}>Education</FilterItem>
             <FilterItem style={isAdv ? clicked : null} onClick={() => LoadComponent("AdvisorCards")}>Advisors</FilterItem>
+            <FilterItem style={isFound ? clicked : null} onClick={() => LoadComponent("FounderCards")}>Founders</FilterItem>
         </FilterContainer>
         {selectedSomethingElse ? component : <ExecBoardCards/>}
     </>

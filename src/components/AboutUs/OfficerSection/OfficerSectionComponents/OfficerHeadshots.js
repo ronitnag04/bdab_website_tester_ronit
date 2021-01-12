@@ -23,6 +23,14 @@ import advisor1 from "../../../../images/about_us/officer_photos/advisors/meliss
 import advisor2 from "../../../../images/about_us/officer_photos/advisors/smruthi_balajee.jpg"
 import advisor3 from "../../../../images/about_us/officer_photos/advisors/danyal_shahroz.jpeg"
 
+import founder1 from "../../../../images/about_us/officer_photos/founders/melissa_wong.jpg"
+import founder2 from "../../../../images/about_us/officer_photos/founders/smruthi_balajee.jpg"
+import founder3 from "../../../../images/about_us/officer_photos/founders/smita_sikaria.jpg"
+import founder4 from "../../../../images/about_us/officer_photos/founders/elliot_larson.jpg"
+import founder5 from "../../../../images/about_us/officer_photos/founders/ronak_laddha.jpg"
+import founder6 from "../../../../images/about_us/officer_photos/founders/aurum_kathuria.jpg"
+import founder7 from "../../../../images/about_us/officer_photos/founders/danyal_shahroz.jpeg"
+
 export const execArr = [
     exec1,
     exec2,
@@ -56,9 +64,20 @@ export const advisorArr = [
     advisor3
 ];
 
+export const founderArr = [
+    founder1,
+    founder2,
+    founder3,
+    founder4,
+    founder5,
+    founder6,
+    founder7
+];
+
 export default {
     execArr,
     educationArr,
     projectArr,
-    advisorArr
+    advisorArr,
+    founderArr
 }
