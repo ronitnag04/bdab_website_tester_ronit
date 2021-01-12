@@ -5,10 +5,10 @@
 #### Modifier(s): Smruthi Balajee 
 #### Last Modified: 10/11/2020
 
-_________________
+***
 
 
-## To setup, modify, and run the website locally
+## 🚀 To setup, modify, and run the website locally
 
    1. Open the terminal.
    2. Navigate into the directory you want to place the website repo.
@@ -20,48 +20,41 @@ _________________
    8. Run `gatsby develop`. If that doesn't work, `npx gatsby develop`.
       - Make sure you are inside the 'bdab_website' folder when you run this.
    9. The original site is now running at `http://localhost:8000`!
-   10. To make edits to the original, change the code, save your changes, and the `localhost` browser will update in real time!
+   10. To make edits to the original, change the code, save, and the `localhost` browser will update in real time - gatsby develop is running in the background!
 
+***
 
-## To publish your changes
-   1. Have your code editor open, Cyberduck, and a new terminal window.
+## 🤠 To publish your changes
+   1. Open your code editor, Cyberduck, and a new terminal window.
 
    #### Code Editor
-   1. In a terminal window, make sure you are inside the 'bdab_website' folder.
-   2. Run `gatsby build`. If that doesn't work, `npx gatsby build`.
+   2. In a terminal window, make sure you are inside the 'bdab_website' folder.
+   3. Run `gatsby build`. If that doesn't work, `npx gatsby build`.
         - For context, `gatsby build` creates a production ready version of the site which can be found in the 'public' folder.
    
    #### Cyberduck
-   - For context, the OCF hosts our website so use Cyberduck to visually navigate the files. All site components
-   must be in the 'public_html' folder.
-   1. SFTP to ssh.ocf.berkeley.edu 
+   - For context, the OCF hosts our website so I use Cyberduck to visually navigate the files. All site components must be in the 'public_html' folder.
+   4. SFTP to ssh.ocf.berkeley.edu 
       - Username: bigdata
       - Password: melandsmoozi
-   2. Open the current public_html and delete ALL files (you will be replacing them).
+   5. Open the current public_html and delete ALL files (you will be replacing them).
    
    #### New Terminal Window
-   1. Run `sftp bigdata@ssh.ocf.berkeley.edu`
-   2. Use `lpwd`, `pwd`, `lcd` commands to navigate to 'bdab_website' in local and 'bigdata' in remote
-   3. Once there, run `put -r public/* public_html/` to transfer all files to the OCF server!
+   6. Run `sftp bigdata@ssh.ocf.berkeley.edu` with password: melandsmoozi.
+   7. Use `lpwd`, `pwd`, `lcd` commands to navigate to 'bdab_website' in local and 'bigdata' in remote
+   8. Once there, run `put -r public/* public_html/` to transfer all files to the OCF server!
+   9. Once the transfer is complete, refresh your Cyberduck window to confirm all of the files are there!
+   10. Clear your cache on Safari and Chrome and navigate to `bd.berkeley.edu`!
 
+***
 
+## 🧐 Website File Structure
 
-## Website File Structure
-
-A quick look at the top-level files and directories you'll see in a Gatsby project.
+The files that you will need when updating the website:
 
     .
-    ├── node_modules
     ├── src
-    ├── .gitignore
-    ├── .prettierrc
-    ├── gatsby-browser.js
-    ├── gatsby-config.js
-    ├── gatsby-node.js
-    ├── gatsby-ssr.js
-    ├── LICENSE
-    ├── package-lock.json
-    ├── package.json
+    |     └──
     └── README.md
 
 _________________
