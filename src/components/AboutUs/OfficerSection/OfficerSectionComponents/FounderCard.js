@@ -70,7 +70,7 @@ const Details = styled.h1`
 `
 
 
-const OfficerCard = (props) => {
+const FounderCard = (props) => {
     return (
         <Container as={Link} to={props.linkedin} target="_blank">
             <Photo src={props.photoLink}/>
@@ -89,4 +89,4 @@ const OfficerCard = (props) => {
     )
 }
 
-export default OfficerCard
+export default FounderCard

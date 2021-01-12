@@ -18,11 +18,6 @@ const DetailsContainer = styled.div`
         width: 360px;
         height: 440px;
     }
-
-    :hover {
-        background-color: #ededee;
-        border: 50px solid #ededee;
-    }
 `
 
 const Name = styled.h2`
@@ -32,8 +27,6 @@ const Name = styled.h2`
     font-size: 25px;
     color: #4f96c7;
     letter-spacing: 0.4px;
-    text-decoration: underline; 
-    text-decoration-color: #f1f1f2;
 `
 
 const OuterContainer = styled.div`
@@ -60,8 +53,6 @@ const Label = styled.h1`
     color: #4f96c7;
     letter-spacing: 1px;
     margin: 0px 10px 10px 0px;
-    text-decoration: underline; 
-    text-decoration-color: #f1f1f2;
 `
 
 const Details = styled.h1`
@@ -72,18 +63,16 @@ const Details = styled.h1`
     color: #231f20;
     letter-spacing: 0.4px;
     margin: 0px 10px 10px 0px;
-    text-decoration: underline;
-    text-decoration-color: #f1f1f2;
 `
 
 const A = styled.a`
-    height: 45px;
+    height: 23px;
 `
 
 
 const BootcampDetailsCard = () => {
     return (
-        <DetailsContainer as={Link} to="/apply">
+        <DetailsContainer>
             <Name>Bootcamp Details</Name>
             <OuterContainer>
                 <InnerContainer>
@@ -103,7 +92,9 @@ const BootcampDetailsCard = () => {
                     <Details>Must be concurrently enrolled in high school</Details>
                     <Details>60 students (20 per class)</Details>
                     <Details>Online (Zoom)</Details>
-                    <Details>Required</Details>
+                    <A href="/apply" rel="noreferrer" target="_blank">
+                        <Details>Required</Details>
+                    </A>
                     <A href="https://bit.ly/spring2021-bdab-syllabus" rel="noreferrer" target="_blank">
                         <Details style={{textDecorationColor: "#231f20"}}>Syllabus</Details>
                     </A>

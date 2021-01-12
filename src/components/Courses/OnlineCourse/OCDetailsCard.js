@@ -22,11 +22,6 @@ const DetailsContainer = styled.div`
     @media (max-width: 450px) {
         width: 360px;
     }
-
-    :hover {
-        background-color: #ededee;
-        border: 50px solid #ededee;
-    }
 `
 
 const Name = styled.h2`
@@ -36,8 +31,6 @@ const Name = styled.h2`
     font-size: 25px;
     color: #4f96c7;
     letter-spacing: 0.4px;
-    text-decoration: underline; 
-    text-decoration-color: #f1f1f2;
 `
 
 const OuterContainer = styled.div`
@@ -64,8 +57,6 @@ const Label = styled.h1`
     color: #4f96c7;
     letter-spacing: 1px;
     margin: 0px 10px 10px 0px;
-    text-decoration: underline; 
-    text-decoration-color: #f1f1f2;
 `
 
 const Details = styled.h1`
@@ -76,13 +67,11 @@ const Details = styled.h1`
     color: #231f20;
     letter-spacing: 0.4px;
     margin: 0px 10px 10px 0px;
-    text-decoration: underline; 
-    text-decoration-color: #f1f1f2;
 `
 
-const OCDetailsCard = (props) => {
+const OCDetailsCard = () => {
     return (
-        <DetailsContainer as={Link} to="/contactus">
+        <DetailsContainer>
             <Name>Online Course Details</Name>
             <OuterContainer>
                 <InnerContainer>
