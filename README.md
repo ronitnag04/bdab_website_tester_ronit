@@ -33,7 +33,7 @@
         - For context, `gatsby build` creates a production ready version of the site which can be found in the 'public' folder.
    
    #### Cyberduck
-   - For context, the OCF hosts our website so I use Cyberduck to visually navigate the files. All site components must be in the 'public_html' folder.
+   - For context, the OCF hosts our website, so I use Cyberduck to visually navigate the files. All site components must be in the 'public_html' folder for them to be used.
    4. SFTP to ssh.ocf.berkeley.edu 
       - Username: bigdata
       - Password: melandsmoozi
@@ -48,15 +48,48 @@
 
 ***
 
+## 📚 How-To Guides: Edit the Website
+   - Check out this [document](https://docs.google.com/document/d/1v4oN_-WMnfGSvhRZwCypfTGO-NiJF2tdqPCM4qkUPU0/edit?usp=sharing)!
+
+***
+
 ## 🧐 Website File Structure
 
-The files that you will need when updating the website:
+These are the main files that you will need when updating the website (not all of the files).
+
+Notes:
+   - All files that aren't in nested folders are shared components among many files. 
+
+File location from root | Filename
+--- | ---
+. | README.md
+src/components/AboutUs | AboutUsContent.js
 
     .
-    ├── src
-    |     └──
-    └── README.md
-
+    ├── README.md
+    └── src
+         └── components
+                  └── Home
+                  └── AboutUs
+                  └── Courses
+                  └── WorkWithUs
+                  └── ContactUs
+                  └── Apply
+                  └── Navbar
+                  └── Footer
+         └── images
+         └── pages
+               └── index.js
+               └── index.css (import all fonts)
+               └── AboutUs
+               └── Courses
+               └── WorkWithUs
+               └── ContactUs
+               └── Apply
+               └── Navbar
+               └── Footer
+         
 _________________
+
 
 ##### <em>For any questions, email melissarwong@berkeley.edu or contact me directly!</em>
