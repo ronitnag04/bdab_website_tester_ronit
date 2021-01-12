@@ -20,7 +20,11 @@
    8. Run `gatsby develop`. If that doesn't work, `npx gatsby develop`.
       - Make sure you are inside the 'bdab_website' folder when you run this.
    9. The original site is now running at `http://localhost:8000`!
-   10. To make edits to the original, change the code, save, and the `localhost` browser will update in real time - gatsby develop is running in the background!
+   10. Open this [document](https://docs.google.com/document/d/1v4oN_-WMnfGSvhRZwCypfTGO-NiJF2tdqPCM4qkUPU0/edit?usp=sharing) to see which files you need to open to make certain changes.
+   11. To make edits to the original, update the code, save, and the `localhost` browser will update in real time - gatsby develop is running in the background!
+   11. Update `README.md` by adding your name to the modifiers list.
+   12. Once you've ensured your local copy is working, push changes to Github.
+      - Remember the `master` branch is called `main`!!! (use `git push -u origin master`) 
 
 ***
 
@@ -48,17 +52,14 @@
 
 ***
 
-## 📚 How-To Guides: Edit the Website
-   - Check out this [document](https://docs.google.com/document/d/1v4oN_-WMnfGSvhRZwCypfTGO-NiJF2tdqPCM4qkUPU0/edit?usp=sharing)!
-
-***
-
 ## 🧐 Website File Structure
 
-These are the main files that you will need when updating the website (not all of the files).
+These are the relevant files that you will need when updating the website.
 
 Notes:
    - All files that aren't in nested folders are shared components among many files. 
+   - `index.css` was only used to import the Google Fonts
+   - Fonts used: Bebas Neue and Montserrat (replacement for Gotham)
 
     .
     ├── README.md
