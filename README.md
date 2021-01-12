@@ -1,4 +1,4 @@
-![alt text](https://github.com/smruthibalajee/bdab_website/blob/master/src/images/favicon.ico?raw=true)
+![alt text](https://github.com/melissarwong/bdab_website/blob/main/src/images/favicon.ico?raw=true)
 # Big Data at Berkeley's Website
 
 #### Author: Melissa Wong
@@ -12,7 +12,7 @@
 
    1. Open the terminal.
    2. Navigate into the directory you want to place the website repo.
-   3. Run `git clone https://github.com/smruthibalajee/bdab_website.git` to clone the repo.
+   3. Run `git clone https://github.com/melissarwong/bdab_website.git` to clone the repo.
    4. Run `cd bdab_website` to access the cloned repo.
    5. Run `npm install` to automatically install the dependencies listed in the package.json file.
    6. Open your preferred code editor and open up the 'bdab_website' folder.
@@ -60,11 +60,6 @@ These are the main files that you will need when updating the website (not all o
 Notes:
    - All files that aren't in nested folders are shared components among many files. 
 
-File location from root | Filename
---- | ---
-. | README.md
-src/components/AboutUs | AboutUsContent.js
-
     .
     ├── README.md
     └── src
@@ -81,15 +76,12 @@ src/components/AboutUs | AboutUsContent.js
          └── pages
                └── index.js
                └── index.css (import all fonts)
-               └── AboutUs
-               └── Courses
-               └── WorkWithUs
-               └── ContactUs
-               └── Apply
-               └── Navbar
-               └── Footer
+               └── aboutus.js
+               └── course.js
+               └── workwithus.js
+               └── contactus.js
+               └── apply.js
          
-_________________
+***
 
-
-##### <em>For any questions, email melissarwong@berkeley.edu or contact me directly!</em>
+##### <em>For any questions, email melissarwong@berkeley.edu or contact me directly on Facebook!</em>
