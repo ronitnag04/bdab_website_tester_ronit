@@ -58,8 +58,6 @@ const Title = styled.h2`
     font-weight: 700;
     color: #4d4d4f;
     letter-spacing: 0.4px;
-    text-decoration: underline; 
-    text-decoration-color: #f1f1f2;
 
     @media (max-width: 500px) {
         font-size: 15px;
@@ -74,32 +72,25 @@ const Description = styled.span`
     font-family: 'Montserrat', sans-serif;
     font-style: regular;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;
+    font-size: 13px;
+    line-height: 16px;
     color: #4d4d4f;
     letter-spacing: 0.4px;
-    text-decoration: underline; 
-    text-decoration-color: #f1f1f2;
-
-    // @media (max-width: 750px) {
-    //     font-size: 11px;
-    //     line-height: 13px;
-    // }
 
     @media (max-width: 500px) {
-        font-size: 11px;
-        line-height: 13px;
+        font-size: 12px;
+        line-height: 15px;
     }
 
     @media (max-width: 350px) {
-        font-size: 10px;
-        line-height: 12px;
+        font-size: 11px;
+        line-height: 14px;
     }
 `
 
 const CardWithLink = (props) => {
     return (
-        <Container as={Link} to={props.link}> 
+        <Container as={Link} to={props.link} style={{textDecoration: "none"}}> 
             <Icon src={props.icon}/>
             <Title>{props.title}</Title>
             <Description>{props.description}</Description>

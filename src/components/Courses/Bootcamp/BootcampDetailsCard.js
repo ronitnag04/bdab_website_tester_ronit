@@ -78,8 +78,8 @@ const BootcampDetailsCard = () => {
                 <InnerContainer>
                     <Label>Price</Label>
                     <Label style={{marginBottom: "30px"}}>Dates</Label>
-                    <Label style={{marginBottom: "23px"}}>Time</Label>
-                    <Label style={{marginBottom: "22px"}}>Grade</Label>
+                    <Label style={{marginBottom: "22px"}}>Time</Label>
+                    <Label style={{marginBottom: "23px"}}>Grade</Label>
                     <Label>Size</Label>
                     <Label>Mode</Label>
                     <Label>App</Label>
@@ -87,7 +87,7 @@ const BootcampDetailsCard = () => {
                 </InnerContainer>
                 <InnerContainer>
                     <Details style={{letterSpacing: "0.5px"}}>FREE</Details>
-                    <Details style={{marginBottom: "15px"}}>Every Saturday from 2.27 to 5.1 (8 weeks)</Details>
+                    <Details style={{marginBottom: "14px"}}>Every Saturday from 2.27 to 5.1 (8 weeks)</Details>
                     <Details>10-11:30am or 11:30am-1pm or 1-2:30pm (Pacific)</Details>
                     <Details>Must be concurrently enrolled in high school</Details>
                     <Details>60 students (20 per class)</Details>

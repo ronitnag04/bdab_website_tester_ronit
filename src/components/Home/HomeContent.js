@@ -36,29 +36,23 @@ const HomeContent = () => {
                     title="For UC Berkeley Students"
                     icon={icon1}
                     link="/aboutus"
-                    description={<>We are looking for <b>driven</b> individuals who are interested in either working on a data 
-                    science-based consulting project, teaching high school students the fundamentals of data science, or developing 
-                    a new, self-paced data science online course. Join a tight knit community of <b>passionate</b> data scientists who 
-                    wish to use the power of data to impact their community for the better. Click to learn more!</>}
+                    description={<>We are looking for <b>driven</b> individuals who are interested in either working on a data consulting project 
+                    or helping spread data science education to all! Join a tight-knit community of <b>passionate</b> students who use the power 
+                    of data to positively impact their community. Click to learn more!</>}
                 />
                 <Card className="item-1"
                     title="For Organizations"
                     icon={icon2}
                     link="/workwithus"
-                    description={<>We provide data consulting services to three organizations every semester. Our services 
-                    range from comprehensive data analysis and constructing <b>machine learning</b> models to 
-                    using <b>computer vision</b> and <b>NLP</b> to dive deeper into your data and uncover buried insights. 
-                    We provide clients with a full team of qualified data scientists and developers. Click to learn more 
-                    about how we can work together!</>}
+                    description={<>We provide comprehensive data consulting services to <b>three</b> organizations every semester. By working with us,
+                    you will have access to a full team of qualified data scientists and developers. Click to learn how we can work together!</>}
                 />
                 <Card className="item-2"
                     title="For General Students"
                     icon={icon3}
                     link="/courses"
-                    description={<>We offer two courses both with the goal of providing a data science education to those in our community 
-                    and beyond. Our Big Data Bootcamp is made for high school students and is a comprehensive introduction to the field 
-                    of data science. Our new Intro to Data Science Online Course is available to those of <b>all ages and locations,</b> and 
-                    aims to dive into the fundamentals of data science. Check them out!</>}
+                    description={<>We offer <b>two</b> data science courses to students. Our initiatives, the Big Data Bootcamp and Intro to Data Science Online 
+                    Course, aim to provide a data science education to those in our community and beyond. Check them out!</>}
                 />
             </Container>
         </>

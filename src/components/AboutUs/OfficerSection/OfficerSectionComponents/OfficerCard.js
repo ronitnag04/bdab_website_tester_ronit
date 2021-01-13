@@ -72,7 +72,7 @@ const Details = styled.h1`
 
 const OfficerCard = (props) => {
     return (
-        <Container as={Link} to={props.linkedin} target="_blank">
+        <Container as={Link} to={props.linkedin} target="_blank" style={{textDecoration: "none"}}>
             <Photo src={props.photoLink}/>
             <Name>{props.name}</Name>
             <InnerContainer>
