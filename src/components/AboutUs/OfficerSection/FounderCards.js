@@ -16,13 +16,13 @@ const AdvisorCards = () => (
             <FounderCard
                 name="Melissa Wong"
                 photoLink={founderArr[0]}
-                role="Senior Advisor"
+                role="Co-President"
                 linkedin="https://www.linkedin.com/in/melissa-r-wong/"
             />
             <FounderCard
                 name="Smruthi Balajee"
                 photoLink={founderArr[1]}
-                role="Senior Advisor"
+                role="Co-President"
                 linkedin="http://www.linkedin.com/in/smruthibalajee"
             />
             <FounderCard
