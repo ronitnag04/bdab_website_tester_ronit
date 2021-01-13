@@ -2,7 +2,7 @@
 # Big Data at Berkeley's Website
 
 #### Author: Melissa Wong
-#### Modifier(s): Smruthi Balajee 
+#### Modifier(s): Smruthi Balajee, Izzie Lau
 #### Last Modified: 1/11/21
 
 ***
@@ -24,7 +24,7 @@
    11. To make edits to the original, update the code, save, and the `localhost` browser will update in real time - gatsby develop is running in the background!
    11. Update `README.md` by adding your name to the modifiers list.
    12. Once you've ensured your local copy is working, push changes to Github.
-      - Remember the `master` branch is called `main`!!! (use `git push -u origin master`) 
+      - Remember the `master` branch is called `main`!!! (use `git push -u origin main`)
 
 ***
 
@@ -35,14 +35,14 @@
    2. In a terminal window, make sure you are inside the 'bdab_website' folder.
    3. Run `gatsby build`. If that doesn't work, `npx gatsby build`.
         - For context, `gatsby build` creates a production ready version of the site which can be found in the 'public' folder.
-   
+
    #### Cyberduck
    - For context, the OCF hosts our website, so I use Cyberduck to visually navigate the files. All site components must be in the 'public_html' folder for them to be used.
-   4. SFTP to ssh.ocf.berkeley.edu 
+   4. SFTP to ssh.ocf.berkeley.edu
       - Username: bigdata
       - Password: melandsmoozi
    5. Open the current public_html and delete ALL files (you will be replacing them).
-   
+
    #### New Terminal Window
    6. Run `sftp bigdata@ssh.ocf.berkeley.edu` with password: melandsmoozi.
    7. Use `lpwd`, `pwd`, `lcd` commands to navigate to 'bdab_website' in local and 'bigdata' in remote
@@ -57,7 +57,7 @@
 These are the relevant files that you will need when updating the website.
 
 Notes:
-   - All files that aren't in nested folders are shared components among many files. 
+   - All files that aren't in nested folders are shared components among many files.
    - `index.css` was only used to import the Google Fonts
    - Fonts used: Bebas Neue and Montserrat (replacement for Gotham)
 
@@ -82,7 +82,7 @@ Notes:
                └── workwithus.js
                └── contactus.js
                └── apply.js
-         
+
 ***
 
 ##### <em>For any questions, email melissarwong@berkeley.edu or contact me directly on Facebook!</em>

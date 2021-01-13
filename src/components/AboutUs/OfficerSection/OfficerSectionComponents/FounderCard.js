@@ -35,7 +35,7 @@ const Name = styled.h2`
     font-size: 20px;
     color: #4f96c7;
     letter-spacing: 0.4px;
-    text-decoration: underline; 
+    text-decoration: underline;
     text-decoration-color: #f1f1f2;
 `
 
@@ -52,7 +52,7 @@ const Label = styled.h1`
     color: #818385;
     letter-spacing: 0.8px;
     margin: 0px 10px 10px 0px;
-    text-decoration: underline; 
+    text-decoration: underline;
     text-decoration-color: #f1f1f2;
 `
 
@@ -65,7 +65,7 @@ const Details = styled.h1`
     color: #231f20;
     letter-spacing: 0.4px;
     margin: 0px 10px 5px 0px;
-    text-decoration: underline; 
+    text-decoration: underline;
     text-decoration-color: #f1f1f2;
 `
 
@@ -76,7 +76,7 @@ const FounderCard = (props) => {
             <Photo src={props.photoLink}/>
             <Name>{props.name}</Name>
             <InnerContainer>
-                <Label>Position</Label>
+                <Label>Position Held</Label>
                 <Details>{props.role}</Details>
             </InnerContainer>
             <InnerContainer>
