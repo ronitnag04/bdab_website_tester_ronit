@@ -8,7 +8,7 @@
 ***
 
 
-## 🚀 To setup, modify, and run the website locally
+## 🚀 To setup, modify, and run the website locally (12 steps)
 
    1. Open the terminal.
    2. Navigate into the directory you want to place the website repo.
@@ -28,27 +28,34 @@
 
 ***
 
-## 🤠 To publish your changes
-   1. Open your code editor, Cyberduck, and a new terminal window.
+## 🤠 To publish your changes (14 steps)
+   1. Open a terminal window and download [Cyberduck](https://cyberduck.io/download/).
+      - NOTE: If you're wondering if you can do everything in Cyberduck or everything in one terminal window, you cannot. Uploading to Cyberduck is buggy and deleting files through SFTP on the terminal is impossible! 
 
-   #### Code Editor
+   #### Terminal
    2. In a terminal window, make sure you are inside the 'bdab_website' folder.
    3. Run `gatsby build`. If that doesn't work, `npx gatsby build`.
         - For context, `gatsby build` creates a production ready version of the site which can be found in the 'public' folder.
 
    #### Cyberduck
    - For context, the OCF hosts our website, so I use Cyberduck to visually navigate the files. All site components must be in the 'public_html' folder for them to be used.
-   4. SFTP to ssh.ocf.berkeley.edu
+   4. Open Cyberduck.
+   5. Press Open Connection.
+   6. In the drop down menu, select SFTP (SSH File Transfer Protocol).
+      - Server: ssh.ocf.berkeley.edu
       - Username: bigdata
       - Password: melandsmoozi
-   5. Open the current public_html and delete ALL files (you will be replacing them).
+   7. Press Connect and allow the fingerprint.
+   8. You should see the public_html folder. Open it and delete ALL files (you will be replacing them).
+      - If you accidentally delete the 'public_html' file on the OCF server, follow these [instructions](https://www.ocf.berkeley.edu/docs/services/web/).
 
-   #### New Terminal Window
-   6. Run `sftp bigdata@ssh.ocf.berkeley.edu` with password: melandsmoozi.
-   7. Use `lpwd`, `pwd`, `lcd` commands to navigate to 'bdab_website' in local and 'bigdata' in remote
-   8. Once there, run `put -r public/* public_html/` to transfer all files to the OCF server!
-   9. Once the transfer is complete, refresh your Cyberduck window to confirm all of the files are there!
-   10. Clear your cache on Safari and Chrome and navigate to `bd.berkeley.edu`!
+   #### Terminal
+   9. Run `sftp bigdata@ssh.ocf.berkeley.edu` with password: melandsmoozi.
+   10. Run `pwd` to make sure your REMOTE location is in the 'bigdata' directory. 
+   11. Run `lcd<filepath>` to make sure your LOCAL location is in the directory holding your 'public' directory. Run `lpwd` to verify your local location.
+   12. Once there, run `put -r public/* public_html/` to transfer all files to the OCF server!
+   13. Once the transfer is complete, refresh your Cyberduck window and expand the 'public_html' to confirm all of the files are there!
+   14. Clear your cache on Safari and Chrome and navigate to `bd.berkeley.edu`!
 
 ***
 
