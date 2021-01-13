@@ -14,6 +14,10 @@ const LogoWrap = styled.div`
     flex: 0 1 120px;
   }
 
+  @media (max-height: 500px) {
+    flex: 0 1 117px;
+  }
+
 `
 
 const LogoImage = styled.img`
