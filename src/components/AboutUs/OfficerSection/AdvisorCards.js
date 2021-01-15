@@ -18,7 +18,7 @@ const AdvisorCards = () => (
                 photoLink={advisorArr[0]}
                 role="Senior Advisor"
                 interest1="Graphic Design"
-                interest2="Swimming"
+                interest2="Minecraft"
                 interest3="Browsing Slack"
                 linkedin="https://www.linkedin.com/in/melissa-r-wong/"
             />
@@ -35,9 +35,9 @@ const AdvisorCards = () => (
                 name="Danyal Shahroz"
                 photoLink={advisorArr[2]}
                 role="Senior Advisor"
-                interest1="Hiking"
-                interest2="Traveling"
-                interest3="Making Music"
+                interest1="Making music"
+                interest2="Maintaining my quarantine beard"
+                interest3="Hiking"
                 linkedin="https://www.linkedin.com/in/danyalshahroz/"
             />
         </CardContainer>
