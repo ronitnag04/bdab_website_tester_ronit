@@ -8,7 +8,7 @@ const DetailsContainer = styled.div`
     flex-direction: column;
     align-items: space-evenly;
     width: 400px;
-    height: 310px;
+    height: 330px;
     background-color: #f1f1f2;
     border: 50px solid #f1f1f2;
     border-radius: 25px;
@@ -78,6 +78,7 @@ const OCDetailsCard = () => {
                     <Label>Price</Label>
                     <Label>Size</Label>
                     <Label>Mode</Label>
+                    <Label>Earn</Label>
                     <Label>App</Label>
                     <Label>Links</Label>
                     <Label style={{marginBottom: "20px"}}>Course</Label>
@@ -86,6 +87,7 @@ const OCDetailsCard = () => {
                     <Details style={{letterSpacing: "0.5px"}}>FREE</Details>
                     <Details>Unlimited</Details>
                     <Details>Online</Details>
+                    <Details>Certificate of Completion</Details>
                     <Details>None</Details>
                     <a href="http://bit.ly/online_course_syllabus" rel="noreferrer" target="_blank">
                         <Details style={{textDecorationColor: "#231f20"}}>Syllabus</Details>

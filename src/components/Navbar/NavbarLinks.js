@@ -41,7 +41,6 @@ const NavItem = styled(Link)`
   @media (max-height: 500px) {
     font-size: 1.3rem;
   }
-
 `
 const NavbarLinks = () => {
   return (

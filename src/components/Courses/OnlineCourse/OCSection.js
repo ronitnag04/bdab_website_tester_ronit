@@ -21,7 +21,7 @@ const DetailsContainer = styled.div`
 `
 
 const Photo = styled.img`
-    height: 310px;
+    height: 330px;
     margin: 40px 40px 40px 40px;
     border-radius: 25px;
 

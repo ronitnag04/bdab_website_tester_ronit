@@ -51,6 +51,7 @@ const StatValue = (props) => {
             end={didViewCountUp ? props.maxValue : 0}
             suffix={props.suffix}
             duration={3} 
+            decimals={props.decimals}
           />
         </VisibilitySensor>
         <Description>{props.label}</Description>

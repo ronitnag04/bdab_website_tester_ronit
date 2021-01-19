@@ -22,7 +22,7 @@ const SectionComponents = styled.div`
 `
 
 const Photo = styled.img`
-    height: 410px;
+    height: 420px;
     margin: 40px 40px 40px 40px;
     border-radius: 25px;
 

@@ -18,10 +18,16 @@ const faqs = [
     {question: "What is Big Data’s club culture?", 
     answer: "Our friendly and growth-oriented club culture has allowed us to form tight-knit bonds with each other and accomplish amazing things! We are committed to uplifting and supporting each other, no matter what. Check out our Medium to learn more about how we stay close virtually!"
     },
+    {question: "What is a drop-in infosession?", 
+    answer: "A summarized version of our infosession, as it won’t cover as much content (it’s half the time). It is a space for you to ask any questions you may have about the club or just chat with some of our officers and members."
+    },
     {question: "What are you looking for in an applicant and how should I prepare for my interview?", 
     answer: "We recommend that you come to one of our two infosessions (first is on 1/27 and second on 1/31) to learn the tips and tricks to recruitment! Check out our Facebook event for more detailed information on those events."
     },
-    {question: "What is the expected time commitment?", 
+    {question: "Are there are tips for the Meet & Greet portion of recruitment?", 
+    answer: "We recommend you ask about member experiences to gain a better understanding of BDAB’s social culture and what the day-to-day involvement with the club is. Also, make an honest effort to speak to members of both committees, not just the one you’re applying to!"
+    },
+    {question: "What is the expected time commitment during the semester?",
     answer: "Your expected time commitment will depend on what committee and position you hold. Come to our infosessions to get a detailed breakdown!"
     }
 ];

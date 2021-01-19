@@ -24,6 +24,7 @@ const BootcampStatsBar = () => {
             <StatValue maxValue="6" suffix="" label="classes taught" />
             <StatValue maxValue="12" suffix="" label="active instructors" />
             <StatValue maxValue="70" suffix="+" label="total hours taught" />
+            <StatValue maxValue="8.7" decimals="1" suffix="/10" label="teaching effectiveness" />
         </Container>
     )
 }

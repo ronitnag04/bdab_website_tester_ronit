@@ -8,7 +8,7 @@ const DetailsContainer = styled.div`
     flex-direction: column;
     align-items: space-evenly;
     width: 400px;
-    height: 410px;
+    height: 420px;
     background-color: #f1f1f2;
     border: 50px solid #f1f1f2;
     border-radius: 25px;
@@ -82,6 +82,7 @@ const BootcampDetailsCard = () => {
                     <Label style={{marginBottom: "23px"}}>Grade</Label>
                     <Label>Size</Label>
                     <Label>Mode</Label>
+                    <Label>Earn</Label>
                     <Label>App</Label>
                     <Label>Links</Label>
                 </InnerContainer>
@@ -92,6 +93,7 @@ const BootcampDetailsCard = () => {
                     <Details>Must be concurrently enrolled in high school</Details>
                     <Details>60 students (20 per class)</Details>
                     <Details>Online (Zoom)</Details>
+                    <Details>Certificate of Completion</Details>
                     <A href="/apply" rel="noreferrer" target="_blank">
                         <Details>Required</Details>
                     </A>

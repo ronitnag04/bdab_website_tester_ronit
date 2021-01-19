@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import SectionTitle from "../SectionTitle"
-import Card from "../CardWithLink"
+import Card from "./HomeCard"
 import { Link } from "gatsby"
 import icon1 from "../../images/home/for_berkeley_students.png"
 import icon2 from "../../images/projects.png"
@@ -36,23 +36,22 @@ const HomeContent = () => {
                     title="For UC Berkeley Students"
                     icon={icon1}
                     link="/aboutus"
-                    description={<>We are looking for <b>driven</b> individuals who are interested in either working on a data consulting project 
-                    or helping spread data science education to all! Join a tight-knit community of <b>passionate</b> students who use the power 
-                    of data to positively impact their community. Click to learn more!</>}
+                    description={<>Serve our community through data science, forging <b>deep relationships and building your 
+                    career</b> with the top data scientists of Berkeley! Click here learn more about BDAB!</>}
                 />
                 <Card className="item-1"
                     title="For Organizations"
                     icon={icon2}
                     link="/workwithus"
-                    description={<>We provide comprehensive data consulting services to <b>three</b> organizations every semester. By working with us,
-                    you will have access to a full team of qualified data scientists and developers. Click to learn how we can work together!</>}
+                    description={<>We provide comprehensive data consulting services, utilizing <b>state-of-the-art</b> technologies 
+                    to deliver value to your organization. Click to learn how we can work together!</>}
                 />
                 <Card className="item-2"
                     title="For General Students"
                     icon={icon3}
                     link="/courses"
-                    description={<>We offer <b>two</b> data science courses to students. Our initiatives, the Big Data Bootcamp and Intro to Data Science Online 
-                    Course, aim to provide a data science education to those in our community and beyond. Check them out!</>}
+                    description={<>The Big Data Bootcamp and the Intro to Data Science course provide a truly <b>fun and foundational</b> data 
+                    science education for you! Click to view our courses!</>}
                 />
             </Container>
         </>
