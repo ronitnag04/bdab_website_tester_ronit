@@ -83,10 +83,10 @@ const BerkeleyStudents = () => (
         <DetailsContainer>
             <Description 
                 description={<>The application is due on Tuesday, February 2nd at 11:59 pm PST. 
-                RSVP to our <a href="https://www.facebook.com/bigdata.berkeley" rel="noreferrer" target="_blank">Facebook event</a> to 
+                RSVP to our <a href="https://www.facebook.com/events/2915322715371031/" rel="noreferrer" target="_blank">Facebook event</a> to 
                 find the Zoom links!</>}
             />
-            <a href="https://forms.gle/LPvkFVJhR3Rz6ubK8" rel="noreferrer" target="_blank">
+            <a href="http://bit.ly/bdab-sp21-app" rel="noreferrer" target="_blank">
                 <Button src={require("../../images/apply/apply_button.png")}/>
             </a>
             <ImageContainer>
