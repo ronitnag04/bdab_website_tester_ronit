@@ -74,7 +74,7 @@ const HighSchoolStudents = () => (
                 description={<>The application is due on Wednesday, 2/17 at 11:59 pm PST. Email us with any questions at 
                 bigdata.berkeley@gmail.com!</>}
             />
-            <a href="https://forms.gle/uUqzcXVhEu1WMnGBA" rel="noreferrer" target="_blank">
+            <a href="http://bit.ly/bootcamp-sp21-app" rel="noreferrer" target="_blank">
                 <Button src={require("../../images/apply/apply_to_learn_button.png")}/>
             </a>
             <ImageContainer>
