@@ -73,7 +73,7 @@ const ProjectCards = () => (
                 interest3="Taking random walks"
                 linkedin="https://www.linkedin.com/in/meg-khurana/"
             />
-            <OfficerCard className="item-6"
+            {/* <OfficerCard className="item-6"
                 committee="project"
                 name="Sina Ghandian"
                 photoLink={projectArr[6]}
@@ -82,7 +82,7 @@ const ProjectCards = () => (
                 interest2="Gardening"
                 interest3="Spending time with friends"
                 linkedin="https://www.linkedin.com/in/sina-ghandian/"
-            />
+            /> */}
         </CardContainer>
     </>
 )
