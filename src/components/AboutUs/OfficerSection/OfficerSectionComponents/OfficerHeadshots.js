@@ -12,12 +12,13 @@ import edu3 from "../../../../images/about_us/officer_photos/education/kyra_wong
 import edu4 from "../../../../images/about_us/officer_photos/education/edward_liu.jpg"
 import edu5 from "../../../../images/about_us/officer_photos/education/sofia_sayyah.jpeg"
 
-import proj1 from "../../../../images/about_us/officer_photos/projects/sina_ghandian.png"
+import proj1 from "../../../../images/about_us/officer_photos/projects/arshia_singhani.jpg"
 import proj2 from "../../../../images/about_us/officer_photos/projects/shirley_wang.jpg"
 import proj3 from "../../../../images/about_us/officer_photos/projects/ahmed_baqai.jpg"
-import proj4 from "../../../../images/about_us/officer_photos/projects/arshia_singhani.jpg"
-import proj5 from "../../../../images/about_us/officer_photos/projects/ben_kaliczak.jpeg"
+import proj4 from "../../../../images/about_us/officer_photos/projects/ben_kaliczak.jpeg"
+import proj5 from "../../../../images/about_us/officer_photos/projects/shreyas_hariharan.png"
 import proj6 from "../../../../images/about_us/officer_photos/projects/meg_khurana.jpg"
+import proj7 from "../../../../images/about_us/officer_photos/projects/sina_ghandian.png"
 
 import advisor1 from "../../../../images/about_us/officer_photos/advisors/melissa_wong.jpg"
 import advisor2 from "../../../../images/about_us/officer_photos/advisors/smruthi_balajee.jpg"
@@ -55,7 +56,8 @@ export const projectArr = [
     proj3,
     proj4,
     proj5,
-    proj6
+    proj6,
+    proj7
 ];
 
 export const advisorArr = [

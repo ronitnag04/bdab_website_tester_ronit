@@ -15,13 +15,13 @@ const ProjectCards = () => (
         <CardContainer>
             <OfficerCard className="item-0"
                 committee="project"
-                name="Sina Ghandian"
+                name="Arshia Singhani"
                 photoLink={projectArr[0]}
                 role="Project Manager"
-                interest1="Piano"
-                interest2="Gardening"
-                interest3="Spending time with friends"
-                linkedin="https://www.linkedin.com/in/sina-ghandian/"
+                interest1="Hiking"
+                interest2="Coffee"
+                interest3="Exploring new places"
+                linkedin="https://www.linkedin.com/in/arshia-s-b2a361133/"
             />
             <OfficerCard className="item-1"
                 committee="project"
@@ -45,23 +45,23 @@ const ProjectCards = () => (
             />
             <OfficerCard className="item-3"
                 committee="project"
-                name="Arshia Singhani"
-                photoLink={projectArr[3]}
-                role="Project Manager"
-                interest1="Hiking"
-                interest2="Coffee"
-                interest3="Exploring new places"
-                linkedin="https://www.linkedin.com/in/arshia-s-b2a361133/"
-            />
-            <OfficerCard className="item-4"
-                committee="project"
                 name="Ben Kaliczak"
-                photoLink={projectArr[4]}
+                photoLink={projectArr[3]}
                 role="Project Manager"
                 interest1="Deep Learning"
                 interest2="Community Building"
                 interest3="Metal Crafting"
                 linkedin="https://www.linkedin.com/in/benjamin-kaliczak-939450174/"
+            />
+            <OfficerCard className="item-4"
+                committee="project"
+                name="Shreyas Hariharan"
+                photoLink={projectArr[4]}
+                role="Project Manager"
+                interest1="Discovering new music"
+                interest2="Sunrise beach walks"
+                interest3="City food touring"
+                linkedin="https://www.linkedin.com/in/shreyashariharan"
             />
             <OfficerCard className="item-5"
                 committee="project"
@@ -72,6 +72,16 @@ const ProjectCards = () => (
                 interest2="Reading"
                 interest3="Taking random walks"
                 linkedin="https://www.linkedin.com/in/meg-khurana/"
+            />
+            <OfficerCard className="item-6"
+                committee="project"
+                name="Sina Ghandian"
+                photoLink={projectArr[6]}
+                role="Project Advisor"
+                interest1="Piano"
+                interest2="Gardening"
+                interest3="Spending time with friends"
+                linkedin="https://www.linkedin.com/in/sina-ghandian/"
             />
         </CardContainer>
     </>
