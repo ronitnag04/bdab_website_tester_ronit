@@ -33,10 +33,10 @@ const ImageContainer = styled.div`
     display: flex;
     align-items: flex-start;
 
-    @media (max-width: 1700px) { 
+    @media (max-width: 1700px) {
         flex-direction: column;
         align-items: center;
-        flex-wrap: wrap; 
+        flex-wrap: wrap;
     }
 `
 
@@ -63,22 +63,22 @@ const HighSchoolStudents = () => (
     <>
         <SectionTitle title="For High School Students"></SectionTitle>
         <DescriptionContainer>
-            <Description 
-                description={<>For high school students interested in learning about data science: apply to be a part of 
-                our <b>8-week Big Data Bootcamp</b> for the Spring 2021 semester. You will learn what data science is, how you 
+            <Description
+                description={<>For high school students interested in learning about data science: apply to be a part of
+                our <b>6-week Big Data Bootcamp</b> for the Spring 2022 semester. You will learn what data science is, how you
                 can apply it to any industry you’re interested in, and see it in action!</>}
             />
         </DescriptionContainer>
         <DetailsContainer>
-            <Description 
-                description={<>The application is due on Wednesday, 2/17 at 11:59 pm PST. Email us with any questions at 
+            <Description
+                description={<>The application is due on Friday, 1/28 at 11:59 pm PST. Email us with any questions at
                 bigdata.berkeley@gmail.com!</>}
             />
-            <a href="http://bit.ly/bootcamp-sp21-app" rel="noreferrer" target="_blank">
+            <a href="https://bit.ly/sp22_bootcamp_app" rel="noreferrer" target="_blank">
                 <Button src={require("../../images/apply/apply_to_learn_button.png")}/>
             </a>
             <ImageContainer>
-                <TimelineImage src={require("../../images/apply/hs_timeline.png")}/>
+                <TimelineImage src={require("../../images/apply/hs_time.png")}/>
             </ImageContainer>
         </DetailsContainer>
     </>

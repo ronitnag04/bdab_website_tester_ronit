@@ -20,7 +20,7 @@ const Container = styled.div`
 const ProjectStatsBar = () => {
     return (
         <Container>
-            <StatValue maxValue="6" suffix="" label="clients worked with" />
+            <StatValue maxValue="11" suffix="" label="clients worked with" />
             <StatValue maxValue="80" suffix="+" label="weekly hours spent on project" />
             <StatValue maxValue="18" suffix="" label="active consultants" />
             <StatValue maxValue="80" suffix="+" label="hours trained" />

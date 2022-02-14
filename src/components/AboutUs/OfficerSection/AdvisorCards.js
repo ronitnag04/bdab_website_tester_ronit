@@ -14,31 +14,22 @@ const AdvisorCards = () => (
     <>
         <CardContainer>
             <OfficerCard className="item-0"
-                name="Melissa Wong"
+                name="Arum Kathuria"
                 photoLink={advisorArr[0]}
                 role="Senior Advisor"
-                interest1="Graphic Design"
-                interest2="Minecraft"
-                interest3="Browsing Slack"
-                linkedin="https://www.linkedin.com/in/melissa-r-wong/"
+                interest1="Having Amazing Conversations"
+                interest2="Optimizing Productivity"
+                interest3="Self-Improvement"
+                linkedin="http://www.linkedin.com/in/heyaurum"
             />
             <OfficerCard className="item-1"
-                name="Smruthi Balajee"
+                name="Ronak Laddha"
                 photoLink={advisorArr[1]}
                 role="Senior Advisor"
-                interest1="Being in ~nature~"
-                interest2="Eating Breakfast Food"
-                interest3="Playing Ukulele (badly)"
-                linkedin="http://www.linkedin.com/in/smruthibalajee"
-            />
-            <OfficerCard className="item-2"
-                name="Danyal Shahroz"
-                photoLink={advisorArr[2]}
-                role="Senior Advisor"
-                interest1="Making music"
-                interest2="Maintaining my quarantine beard"
-                interest3="Hiking"
-                linkedin="https://www.linkedin.com/in/danyalshahroz/"
+                interest1="Cold Brew"
+                interest2="Playing Soccer"
+                interest3="Making Large Spotify Playlists"
+                linkedin="https://www.linkedin.com/in/ronak-laddha/"
             />
         </CardContainer>
     </>

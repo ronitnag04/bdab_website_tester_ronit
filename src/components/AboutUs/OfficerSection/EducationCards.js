@@ -14,50 +14,42 @@ const EducationCards = () => (
     <>
         <CardContainer>
             <OfficerCard className="item-0"
-                name="Sophie Lou"
+                name="Alyna Matthews"
                 photoLink={educationArr[0]}
                 role="Head Instructor"
-                interest1="Pop Music"
-                interest2="Binge Watching Netflix"
-                interest3="Photography"
-                linkedin="https://www.linkedin.com/in/sophiexuanlou/"
+                interest1="Cooking/Baking"
+                interest2="Music"
+                interest3=" NYT mini crossword puzzles "
+                linkedin="https://www.linkedin.com/in/alaynamatthews/"
             />
             <OfficerCard className="item-1"
-                name="Varsha Madapoosi"
+                name="Sabi Can Ruso"
                 photoLink={educationArr[1]}
                 role="Head Instructor"
-                interest1="Drawing & Painting"
-                interest2="Playing Cards"
-                interest3="Watching Movies"
-                linkedin="https://www.linkedin.com/in/varshamadapoosi/"
+                interest1="Guitar"
+                interest2="Soccer"
+                interest3="Tennis"
+                linkedin="https://www.linkedin.com/in/sabi-can-ruso-83648721b/"
             />
             <OfficerCard className="item-2"
-                name="Kyra Wong"
+                name="Emily Holmes"
                 photoLink={educationArr[2]}
                 role="Head Instructor"
-                interest1="Settlers of Catan"
-                interest2="Houseplants "
-                interest3="Cooking"
-                linkedin="https://www.linkedin.com/in/kyra-wong/"
+                interest1="Road Trips"
+                interest2="Watching Euphoria"
+                interest3="Playing IM Softball"
+                linkedin="https://www.linkedin.com/in/emily--holmes/"
             />
             <OfficerCard className="item-3"
-                name="Eddie Liu"
+                name="Wajiha Zahid"
                 photoLink={educationArr[3]}
-                role="Head E-Learning Developer"
-                interest1="Swimming"
-                interest2="Basketball"
-                interest3="Traveling"
-                linkedin="https://www.linkedin.com/in/edwardfliu/"
+                role="Head Instructor"
+                interest1="Basketball"
+                interest2="A24 Films"
+                interest3="Woodworking"
+                linkedin=" https://www.linkedin.com/in/wajiha-zahid"
             />
-            <OfficerCard className="item-4"
-                name="Sofia Sayyah"
-                photoLink={educationArr[4]}
-                role="Head E-Learning Developer"
-                interest1="Reading"
-                interest2="Baking"
-                interest3="Listening to Music"
-                linkedin="https://www.linkedin.com/in/sofia-sayyah/"
-            />
+
         </CardContainer>
     </>
 )

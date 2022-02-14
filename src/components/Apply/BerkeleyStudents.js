@@ -33,10 +33,10 @@ const ImageContainer = styled.div`
     display: flex;
     align-items: flex-start;
 
-    @media (max-width: 1700px) { 
+    @media (max-width: 1700px) {
         flex-direction: column;
         align-items: center;
-        flex-wrap: wrap; 
+        flex-wrap: wrap;
     }
 `
 
@@ -74,24 +74,24 @@ const BerkeleyStudents = () => (
     <>
         <SectionTitle title="For UC Berkeley Students"></SectionTitle>
         <DescriptionContainer>
-            <Description 
-                description={<>For students interested in working on a consulting project or teaching data science: 
-                    apply to our education committee, projects committee, or both for the Spring 2021 semester. There 
+            <Description
+                description={<>For students interested in working on a consulting project or teaching data science:
+                    apply to our education committee, projects committee, or both for the Spring 2022 semester. There
                     is only one application. <b>You must apply to at least one committee.</b> Looking forward to meeting you!</>}
             />
         </DescriptionContainer>
         <DetailsContainer>
-            <Description 
-                description={<>The application is due on Tuesday, February 2nd at 11:59 pm PST. 
-                RSVP to our <a href="https://www.facebook.com/events/2915322715371031/" rel="noreferrer" target="_blank">Facebook event</a> to 
+            <Description
+                description={<>The application is due on Tuesday, February 1st at 11:59 pm PST.
+                RSVP to our <a href="https://fb.me/e/5jte16Hj3" rel="noreferrer" target="_blank">Facebook event</a> to
                 find the Zoom links!</>}
             />
-            <a href="http://bit.ly/bdab-sp21-app" rel="noreferrer" target="_blank">
+            <a href="http://bit.ly/sp22_generalapp" rel="noreferrer" target="_blank">
                 <Button src={require("../../images/apply/apply_button.png")}/>
             </a>
             <ImageContainer>
-                <TimelineImage src={require("../../images/apply/berkeley_timeline_1.png")}/>
-                <TimelineImage2 src={require("../../images/apply/berkeley_timeline_2.png")}/>
+                <TimelineImage src={require("../../images/apply/berkeley_timeline.png")}/>
+
             </ImageContainer>
         </DetailsContainer>
     </>
