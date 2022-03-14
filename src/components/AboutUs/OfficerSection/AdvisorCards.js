@@ -14,7 +14,7 @@ const AdvisorCards = () => (
     <>
         <CardContainer>
             <OfficerCard className="item-0"
-                name="Arum Kathuria"
+                name="Aurum Kathuria"
                 photoLink={advisorArr[0]}
                 role="Senior Advisor"
                 interest1="Having Amazing Conversations"

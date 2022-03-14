@@ -45,7 +45,7 @@ const ProjectCards = () => (
             />
             <OfficerCard className="item-3"
                 committee="project"
-                name="Nicole"
+                name="Nicole Tin"
                 photoLink={projectArr[3]}
                 role="Project Manager"
                 interest1="Reading Philosophy"

@@ -10,7 +10,7 @@ import edu1 from "../../../../images/about_us/officer_photos/education/alayna.jp
 import edu2 from "../../../../images/about_us/officer_photos/education/can.png"
 import edu3 from "../../../../images/about_us/officer_photos/education/emily.jpg"
 import edu4 from "../../../../images/about_us/officer_photos/education/wajiha.jpeg"
-import edu5 from "../../../../images/about_us/officer_photos/education/sofia_sayyah.jpeg"
+import edu5 from "../../../../images/about_us/officer_photos/education/joshua.jpg"
 
 import proj1 from "../../../../images/about_us/officer_photos/projects/bryce.jpg"
 import proj2 from "../../../../images/about_us/officer_photos/projects/erin.jpeg"
