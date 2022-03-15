@@ -2,6 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import OfficerCard from "./OfficerSectionComponents/OfficerCard"
 import {educationArr} from './OfficerSectionComponents/OfficerHeadshots';
+import {founderArr} from './OfficerSectionComponents/OfficerHeadshots';
 
 const CardContainer = styled.div`
     margin: 50px 50px 50px 50px;
@@ -51,7 +52,7 @@ const EducationCards = () => (
             />
             <OfficerCard className="item-4"
                 name="Joshua Chandiramani"
-                photoLink={educationArr[3]}
+                photoLink={educationArr[4]}
                 role="Head E-Learning Developer"
                 interest1="Tennis"
                 interest2= "Exploring Berkeley"

@@ -20,16 +20,15 @@ export const currentClients = [
 ];
 
 export const pastClients = [
+    {logo: tripadvisor1, link: "https://www.tripadvisor.com/"},
     {logo: mcbride, link: "https://www.mcbridesisters.com/"},
     {logo: lovo, link: "https://www.lovo.ai/"},
     {logo: paladin, link: "https://paladindrones.io/"},
     {logo: perkville, link: "https://www.perkville.com/"},
     {logo: bedrock, link: "https://www.bedrockanalytics.com/"},
     {logo: calfit, link: "https://www.californiafamilyfitness.com/"},
-    {logo: tripadvisor1, link: "https://www.tripadvisor.com/"},
     {logo: clearskye, link: "https://clearskye.com/"},
     {logo: karbon, link: "https://karbonhq.com/"},
     {logo: seti, link: "https://www.seti.org/"},
     {logo: vivensity, link: "https://www.vivensity.com/"}
-
 ];

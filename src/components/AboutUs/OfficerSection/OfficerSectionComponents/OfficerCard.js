@@ -18,7 +18,7 @@ const Container = styled.div`
 
 const Photo = styled.img`
     border-radius: 5px;
-    height: 200px;
+    min-height: 200px;
 `
 
 const LinkedIn = styled.img`

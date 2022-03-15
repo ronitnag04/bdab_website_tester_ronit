@@ -93,7 +93,7 @@ const OCDetailsCard = () => {
                         <Details style={{textDecorationColor: "#231f20"}}>Syllabus</Details>
                     </a>
                     <a href="/contactus" rel="noreferrer" target="_blank">
-                        <Details style={{textDecorationColor: "#231f20"}}>Available Fall 2021</Details>
+                        <Details style={{textDecorationColor: "#231f20"}}>Available Fall 2022</Details>
                     </a>
                 </InnerContainer>
             </OuterContainer>
