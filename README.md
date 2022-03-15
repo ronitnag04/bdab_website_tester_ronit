@@ -2,7 +2,7 @@
 # Big Data at Berkeley's Website
 
 #### Author: Melissa Wong
-#### Modifier(s): Smruthi Balajee, Izzie Lau
+#### Modifier(s): Smruthi Balajee, Izzie Lau, Sofia Kwee
 #### Last Modified: 1/11/21
 
 ***
@@ -52,7 +52,7 @@
    #### Terminal
    9. Run `sftp bigdata@ssh.ocf.berkeley.edu` with password: melandsmoozi.
    10. Run `pwd` to make sure your REMOTE location is in the 'bigdata' directory. 
-   11. Run `lcd<filepath>` to make sure your LOCAL location is in the directory holding your 'public' directory. Run `lpwd` to verify your local location.
+   11. Run `lcd <filepath>` to navigate to the folder in your LOCAL computer that contains the 'public' directory. Run `lpwd` to verify your local location.
    12. Once there, run `put -r public/* public_html/` to transfer all files to the OCF server! (~1 min process)
    13. Once the transfer is complete, refresh your Cyberduck window and expand the 'public_html' to confirm all of the files are there!
    14. Clear your cache on Safari and Chrome and navigate to `bd.berkeley.edu`!
