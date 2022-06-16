@@ -5,7 +5,7 @@ import VisibilitySensor from 'react-visibility-sensor';
 
 const countUpStyle = { 
     fontFamily: 'Montserrat',
-    fontSize: "45px",
+    fontSize: "40px",
     fontStyle: "bold",
     fontWeight: "700",
     color: "#56a3da"

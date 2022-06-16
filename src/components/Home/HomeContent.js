@@ -50,7 +50,7 @@ const HomeContent = () => {
                     title="For General Students"
                     icon={icon3}
                     link="/courses"
-                    description={<>The Big Data Bootcamp and the Intro to Data Science course provide a truly <b>fun and foundational</b> data 
+                    description={<>The Big Data Bootcamp and our Data Science Demystified intro course provide a <b>fun and foundational</b> data 
                     science education for you! Click to view our courses!</>}
                 />
             </Container>

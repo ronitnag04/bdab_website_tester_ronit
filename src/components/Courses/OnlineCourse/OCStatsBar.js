@@ -20,8 +20,8 @@ const Container = styled.div`
 const OCStatsBar = () => {
     return (
         <Container>
-            <StatValue maxValue="10" suffix="+" label="hours of recorded content" />
-            <StatValue maxValue="6" suffix="" label="modules" />
+            <StatValue maxValue="100" suffix="+" label="minutes of recorded content" />
+            <StatValue maxValue="8" suffix="" label="modules" />
         </Container>
     )
 }

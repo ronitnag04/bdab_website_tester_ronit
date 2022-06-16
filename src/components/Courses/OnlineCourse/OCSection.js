@@ -36,10 +36,10 @@ const Photo = styled.img`
 const OCSection = () => (
     <>
         <a id="online_course"/>
-        <SectionTitle title="Intro to Data Science Online Course"></SectionTitle>
+        <SectionTitle title="Data Science Demystified"></SectionTitle>
         <DescriptionContainer>
             <Description 
-                description={<>This <b>self-paced course</b> provides a thorough introduction to the fundamentals of 
+                description={<>This <b>self-paced, online course</b> provides a thorough introduction to the fundamentals of 
                 data science to those of all ages and locations. You will learn how to program in the Python 
                 language using NumPy and Pandas and the applications of various statistics concepts. 
                 No experience required.</>}

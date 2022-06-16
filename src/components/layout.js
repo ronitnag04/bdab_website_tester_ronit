@@ -13,12 +13,11 @@ const Container = styled.div`
 const Layout = ({ children }) => {
   return (
     <Container>
-      <Navbar />
+      <Navbar/>
       <div>
         <main>{children}</main>
       </div>
-      {/* <Footer /> */}
-      <Copyright />
+      <Copyright/>
       <Footer/>
     </Container>
   )

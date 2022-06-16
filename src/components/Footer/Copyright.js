@@ -44,7 +44,7 @@ const Copyright = () => {
             <OCFLogo src={require("../../images/ocf-hosted-penguin.svg")} alt="art"/>
         </a>
         <Description>
-        Copyright © 2021 Big Data at Berkeley. We are a student group acting independently of the University of 
+        Copyright © 2022 Big Data at Berkeley. We are a student group acting independently of the University of 
             California. We take full responsibility for our organization and this website.
         </Description>
     </Container>
