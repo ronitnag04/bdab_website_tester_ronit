@@ -8,18 +8,14 @@ const Container = styled.div`
     justify-content: flex-start;
     flex-direction: column;
     width: 60%;
-    height: 480px;
+    height: 100%;
     background-color: #fbfbfb;
     border: 28px solid #fbfbfb;
-    border-bottom: 55px solid #fbfbfb;
     border-radius: 25px;
     margin: 30px 0px 60px 0px;
-    opacity: 0.7;
+    opacity: 0.9;
 
-    @media (max-width: 1000px) { height: 490px; width: 100%; }
-    @media (max-width: 600px) { height: 520px; }
-    @media (max-width: 563px) { height: 650px; }
-    @media (max-width: 360px) { height: 750px; }
+    @media (max-width: 1000px) { width: 100%; }
 `
 
 const Label = styled.h1`
@@ -83,18 +79,22 @@ const Button = styled.button`
     background-color: #c4f0ff;
   }
 
-  @media (max-width: 600px) { margin: 20px; }
+  @media (max-width: 600px) { margin: 20px; font-size: 18px;}
 `
 
 const IntroDetailsCard = () => {
     return (
         <Container>
             <Label>What You'll Learn</Label>
-            <Details>Python and more and data science, also this and that.</Details>
-            <Details>Also maybe some of that too!</Details>
+            <Details>• Python fundamentals</Details>
+            <Details>• How to manipulate data (NumPy & Pandas)</Details>
+            <Details>• How to visualize data (Seaborn & Matplotlib)</Details>
+            <Details>• The Data Science Life Cycle</Details>
+            <Details>• Basics of Machine Learning</Details>
+            <Details>• SQL ... and so much more!</Details>
 
-            <Label>Experience Required</Label>
-            <Details>None</Details>
+            <Label>Experience</Label>
+            <Details>No prior experience required!</Details>
 
             <Label>Earn</Label>
             <Details>Certificate of Completion</Details>

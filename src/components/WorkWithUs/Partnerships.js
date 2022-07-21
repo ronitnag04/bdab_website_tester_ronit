@@ -20,7 +20,7 @@ const PartnershipSection = () => (
     <>
         <SectionTitle title="Partnership Options"></SectionTitle>
         <CardContainer>
-            <a href='mailto:bigdata.berkeley@gmail.com' target="_blank" style={{textDecoration: "none"}}>
+            <a href='mailto:bigdata.berkeley@gmail.com' target="_blank" rel="noreferrer" style={{textDecoration: "none"}}>
                  <Card className="item-0"
                     title="Consulting Project"
                     icon={icon1}

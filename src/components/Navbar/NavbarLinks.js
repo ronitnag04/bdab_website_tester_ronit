@@ -82,14 +82,9 @@ const SpecialNavItem = styled(Link)`
     background-color: #b5deeb;
   }
 
-  @media (max-width: 768px) {
-    padding: 20px 0;
-    font-size: 1.5rem;
-  }
-
-  @media (max-height: 500px) {
-    font-size: 1.3rem;
-  }
+  @media (max-width: 768px) { font-size: 1.3rem; }
+  @media (max-height: 500px) { font-size: 1.3rem; }
+  @media (max-height: 400px) { font-size: 1rem; }
 `
 
 const NavbarLinks = () => {
@@ -102,7 +97,7 @@ const NavbarLinks = () => {
       <NavItem to="https://medium.com/big-data-at-berkeley">Blog</NavItem>
       <NavItem to="/apply/">Apply</NavItem>
       <NavItem to="/contactus/">Contact Us</NavItem>
-      {/* <SpecialNavItem to="/onlinecourse/intro/">New Online Course</SpecialNavItem> */}
+      <SpecialNavItem to="/onlinecourse/intro/">New Online Course</SpecialNavItem>
     </>
   )
 }

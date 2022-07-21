@@ -33,7 +33,7 @@ const CommitteeSection = () => (
                 link="/courses"
                 description={<>The Education Committee’s goal is to make data science education accessible to those 
                 of <b>all ages and locations.</b> We run the Big Data Bootcamp hosted at UC Berkeley and a completely new, 
-                original Intro to Data Science Online Course.</>}
+                original Data Science Demystified online course.</>}
             />
         </CardContainer>
     </>
