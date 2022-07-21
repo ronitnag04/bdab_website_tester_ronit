@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components"
-import SectionTitle from "../../SectionTitle";
+import SectionTitle from "../../BigSectionTitle";
 import ExecBoardCards from "./ExecBoardCards"
 
 const FilterContainer = styled.div`

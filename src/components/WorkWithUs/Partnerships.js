@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import Card from "../CardWithLink"
-import SectionTitle from "../SectionTitle"
+import SectionTitle from "../BigSectionTitle"
 import icon1 from "../../images/projects.png"
 import icon2 from "../../images/education.png"
 

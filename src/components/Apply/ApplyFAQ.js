@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components"
-import SectionTitle from "../SectionTitle";
+import SectionTitle from "../BigSectionTitle";
 
 const faqs = [
     {question: "Is there a general membership program I can join?", 

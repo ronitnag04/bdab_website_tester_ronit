@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "styled-components"
-import SectionTitle from "../SectionTitle"
+import SectionTitle from "../BigSectionTitle"
 import Card from "./HomeCard"
 import icon1 from "../../images/home/for_berkeley_students.png"
 import icon2 from "../../images/projects.png"

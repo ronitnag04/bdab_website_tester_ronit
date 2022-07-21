@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components"
 import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
-import SectionTitle from "../SectionTitle";
+import SectionTitle from "../BigSectionTitle";
 
 const properties = {
   duration: 100000000,

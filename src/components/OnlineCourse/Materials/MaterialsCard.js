@@ -16,14 +16,10 @@ const Container = styled.div`
     text-align: left;
     margin: 20px;
     position: relative;
+    opacity: 0.9;
 
     @media (max-width: 500px) {
         height: 340px;
-    }
-
-    :hover {
-        opacity: 1;
-        cursor: pointer;
     }
 `
 
@@ -55,7 +51,7 @@ const Title = styled.h2`
     }
 `
 
-const FooterItem = styled(Link)`
+const LinkItem = styled(Link)`
   font-family: 'Montserrat', sans-serif;
   font-style: regular;
   font-weight: 500;
@@ -63,13 +59,11 @@ const FooterItem = styled(Link)`
   color: #15497d;
   display: inline-block;
   white-space: nowrap;
-  margin: 3px 90px 0px 0px;
-  transition: all 200ms ease-in;
   position: relative;
-  opacity: 1;
+  opacity: 0.9;
 
   :hover {
-    opacity: .6;
+    opacity: 0.6;
   }
 `
 
@@ -78,9 +72,9 @@ const ModuleCard = (props) => {
         <Container>
             <Label>Module {props.label}</Label>
             <Title>{props.title}</Title>
-            <FooterItem to={props.lesson_vid_link} rel="noreferrer" target="_blank">Lesson Video</FooterItem>
-            <FooterItem to={props.slides_link} rel="noreferrer" target="_blank">Slides</FooterItem>
-            <FooterItem to={props.notebook_link} rel="noreferrer" target="_blank">Jupyter Notebook</FooterItem>
+            <LinkItem to={props.lesson_vid_link} rel="noreferrer" target="_blank">Lesson Video</LinkItem>
+            <LinkItem to={props.slides_link} rel="noreferrer" target="_blank">Slides</LinkItem>
+            <LinkItem to={props.notebook_link} rel="noreferrer" target="_blank">Jupyter Notebook</LinkItem>
         </Container>
     )
 }
