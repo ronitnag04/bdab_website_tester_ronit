@@ -101,4 +101,4 @@ Notes:
 
 ***
 
-##### <em>For any questions, email melissarwong@berkeley.edu or contact me directly on Facebook!</em>
+##### <em>For any questions, email melissarwong@berkeley.edu, text me on Slack, or contact me directly on Facebook!</em>
