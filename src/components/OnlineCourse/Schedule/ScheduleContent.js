@@ -62,23 +62,6 @@ const Title = styled.h1`
   @media (max-width: 410px) { font-size: 62px; line-height: 64px;}
 `
 
-const Description = styled.h2`
-    font-family: 'Montserrat', sans-serif;
-    font-style: italic;
-    font-weight: 700;
-    font-size: 17px;
-    text-transform: lowercase;
-    color: #f2f2f3;
-    letter-spacing: 0.4px;
-    margin-bottom: 60px;
-    text-align: center;
-
-    @media (max-width: 500px) { font-size: 15px; line-height: 18px; }
-    @media (max-width: 400px) { font-size: 14px; line-height: 17px; }
-    @media (max-width: 350px) { font-size: 12px; line-height: 15px; }
-    @media (max-width: 300px) { font-size: 9px; line-height: 12px; }
-`
-
 const ContentContainer = styled.div`
     position: absolute;
     width: 100%;

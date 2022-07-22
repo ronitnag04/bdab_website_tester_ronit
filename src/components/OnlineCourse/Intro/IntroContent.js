@@ -92,7 +92,7 @@ const BertImg = styled.img`
   @media (max-width: 600px) { height: 300px; }
 `
 
-const Intro = () => (
+const IntroContent = () => (
   <OuterContainer>
     <BackgroundImg src={require("../../../images/footer_art.png")} alt="art"/>
     <InnerContainer>
@@ -106,4 +106,4 @@ const Intro = () => (
   </OuterContainer>
 )
 
-export default Intro
+export default IntroContent

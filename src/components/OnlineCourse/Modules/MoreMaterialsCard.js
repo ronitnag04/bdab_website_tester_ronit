@@ -7,48 +7,28 @@ const Container = styled.div`
     justify-content: flex-start;
     flex-direction: column;
     align-items: flex-start;
-    width: 290px;
-    height: 320px;
+    width: 285px;
+    height: 210px;
     background-color: #f1f1f2;
     border: 10px solid #f1f1f2;
     padding: 40px 40px 10px 40px;
-    border-radius: 25px;
+    border-radius: 22px;
     text-align: left;
-    margin: 20px;
     position: relative;
-    opacity: 0.9;
+    opacity: 0.7;
+    margin-left: 60px;
 
-    @media (max-width: 500px) {
-        height: 340px;
-    }
-`
-
-const Label = styled.h1`
-    font-family: 'Montserrat', sans-serif;
-    font-style: bold;
-    font-weight: 700;
-    font-size: 14px;
-    text-transform: uppercase;
-    color: #4f96c7;
-    letter-spacing: 1px;
-    margin: 0px 0px 10px 0px;
+    @media (max-width: 1300px) { margin: 40px; }
+    @media (max-width: 1200px) { margin: 40px 0px 0px 0px; }
 `
 
 const Title = styled.h2`
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     font-style: bold;
     font-weight: 700;
     color: #4d4d4f;
     letter-spacing: 0.4px;
-
-    @media (max-width: 500px) {
-        font-size: 15px;
-    }
-
-    @media (max-width: 350px) {
-        font-size: 13px;
-    }
 `
 
 const LinkItem = styled(Link)`
@@ -68,16 +48,14 @@ const LinkItem = styled(Link)`
   }
 `
 
-const ModuleCard = (props) => {
+const MoreMaterialsCard = (props) => {
     return (
         <Container>
-            <Label>Module {props.label}</Label>
-            <Title>{props.title}</Title>
-            <LinkItem to={props.lesson_vid_link} rel="noreferrer" target="_blank">Lesson Video</LinkItem>
+            <Title>Materials To Have Open</Title>
             <LinkItem to={props.slides_link} rel="noreferrer" target="_blank">Slides</LinkItem>
             <LinkItem to={props.notebook_link} rel="noreferrer" target="_blank">Jupyter Notebook</LinkItem>
         </Container>
     )
 }
 
-export default ModuleCard
+export default MoreMaterialsCard

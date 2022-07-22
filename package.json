@@ -23,6 +23,7 @@
     "react-dom": "^16.12.0",
     "react-helmet": "^5.2.1",
     "react-multi-carousel": "^2.6.1",
+    "react-player": "^2.10.1",
     "react-slick": "^0.27.13",
     "react-slideshow-image": "^3.4.3",
     "react-visibility-sensor": "^5.1.1",

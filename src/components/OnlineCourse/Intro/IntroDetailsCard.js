@@ -101,7 +101,7 @@ const IntroDetailsCard = () => {
 
             <IntroStatsBar/>
 
-            <Button as={Link} to={"/"}>I'm ready to learn!</Button>
+            <Button as={Link} to={"/online_course/schedule"}>I'm ready to learn!</Button>
         </Container>
     )
 }

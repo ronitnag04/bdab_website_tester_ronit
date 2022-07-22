@@ -46,10 +46,10 @@ const NavItem = styled(Link)`
 const NavbarLinks = () => {
   return (
     <>
-      <NavItem to="/onlinecourse/intro/">Introduction</NavItem>
-      <NavItem to="/onlinecourse/schedule/">Your Schedule</NavItem>
-      <NavItem to="/onlinecourse/materials/">Materials</NavItem>
-      <NavItem to="/onlinecourse/aboutcourse/">About</NavItem>
+      <NavItem to="/online_course/intro/">Introduction</NavItem>
+      <NavItem to="/online_course/schedule/">Your Schedule</NavItem>
+      <NavItem to="/online_course/materials/">Materials</NavItem>
+      <NavItem to="/online_course/about/">About</NavItem>
     </>
   )
 }
