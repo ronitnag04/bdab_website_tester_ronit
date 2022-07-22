@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import ContributorCard from "./ContributorCard"
-import SectionTitle from "../../SmallSectionTitle";
+import SectionTitle from "../SmallSectionTitle";
 
 {/* when updating this: put active members first, inactive after */}
 const contributors = [ 

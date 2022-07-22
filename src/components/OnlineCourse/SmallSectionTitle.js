@@ -37,13 +37,13 @@ const Decoration = styled.img`
   }
 `
 
-const BigSectionTitle = (props) => {
+const SmallSectionTitle = (props) => {
   return (
     <Container>
       <Title style={{color: props.color === "light"? "#f1f1f2" : "#414142"}}>{props.title}</Title>
-      <Decoration src={require("../images/header_dots.png")}/>
+      <Decoration src={require("../../images/header_dots.png")}/>
     </Container>
   )
 }
 
-export default BigSectionTitle
+export default SmallSectionTitle

@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "styled-components"
-import SectionTitle from "../../SmallSectionTitle"
+import SectionTitle from "../SmallSectionTitle"
 import Description from "../../Description"
 
 const Container = styled.div`

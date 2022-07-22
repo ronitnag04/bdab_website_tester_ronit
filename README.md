@@ -80,6 +80,7 @@ Notes:
                   └── Apply
                   └── Navbar
                   └── Footer
+                  └── OnlineCourse (entire course code source is here & respective pages folder)
          └── images
          └── pages
                └── index.js
@@ -89,6 +90,14 @@ Notes:
                └── workwithus.js
                └── contactus.js
                └── apply.js
+               └── online_course
+                        └── intro.js
+                        └── schedule.js
+                        └── materials.js
+                        └── about.js
+                        └── modules
+                              └── modules[0-8].js
+
 
 ***
 
