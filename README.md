@@ -3,7 +3,7 @@
 
 #### Author: Melissa Wong
 #### Modifier(s): Izzie Lau, Sofia Kwee
-#### Last Modified: 1/11/21
+#### Last Modified: 7/22/21
 
 ***
 
@@ -24,7 +24,7 @@
    11. To make edits to the original, update the code, save, and the `localhost` browser will update in real time - gatsby develop is running in the background!
    11. Update `README.md` by adding your name to the modifiers list.
    12. Once you've ensured your local copy is working, push changes to Github.
-      - Remember the `master` branch is called `main`!!! (use `git push -u origin main`)
+      - *** Remember the `master` branch is called `main` now!!!!! (use `git push -u origin main`)
 
 ***
 
@@ -101,4 +101,4 @@ Notes:
 
 ***
 
-##### <em>For any questions, email melissarwong@berkeley.edu or contact me directly on Facebook!</em>
+##### <em>For any questions, email melissarwongg@gmail.com, text me on Slack, or contact me directly on Facebook!</em>
