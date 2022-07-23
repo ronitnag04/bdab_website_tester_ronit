@@ -9,7 +9,7 @@ const IndexPage = () => (
   <>
     <Helmet>
       <title>Big Data at Berkeley</title>
-      <meta name="google-site-verification" content="URcXqxf6qTOKJmjAkyA6TZQiH9ZgF2rq_-AlEFSb_hc" />
+      <meta name="google-site-verification" content="BCbWTYv9HP611OCBSvQGeTT_PfIrvBnOTMjzHBNd_4c" /> 
       <meta charSet="utf-8" />
       <meta name="author" content="Melissa Wong"/>
       <meta name="description" content="Big Data at Berkeley is a UC Berkeley student organization dedicated to promoting data science in our community through educational bootcamps and industry-level data consulting projects."/>

@@ -12,7 +12,7 @@ const Container = styled.div`
     background-color: #f1f1f2;
     border: 10px solid #f1f1f2;
     border-radius: 25px;
-    opacity: 0.9;
+    opacity: 0.7;
     margin-bottom: 100px;
 `
 
