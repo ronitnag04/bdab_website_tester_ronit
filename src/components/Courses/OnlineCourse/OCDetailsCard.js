@@ -95,6 +95,9 @@ const OCDetailsCard = () => {
                     <a href="/contactus" rel="noreferrer" target="_blank">
                         <Details style={{textDecorationColor: "#231f20"}}>Available Fall 2022</Details>
                     </a>
+                    {/* <a href="/online_course/intro/" rel="noreferrer" target="_blank">
+                        <Details style={{textDecorationColor: "#231f20"}}>Available Now!</Details>
+                    </a> */}
                 </InnerContainer>
             </OuterContainer>
         </DetailsContainer>
