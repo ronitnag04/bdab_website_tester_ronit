@@ -6,10 +6,15 @@ import SectionTitle from "../SmallSectionTitle";
 {/* when updating this: put active members first, inactive after */}
 const contributors = [ 
     {name: "Joshua Chandiramani",
-    position: "Active, Head of Curriculum",
+    position: "Active, VP of Education",
     linkedin: "https://www.linkedin.com/in/joshua-chandiramani/",
     status: "active"
     },
+    {name: "Kaito Garcia",
+    position: "Active, Head of Curriculum",
+    linkedin: "https://www.linkedin.com/in/kaitogarcia/ ",
+    status: "active"
+    },  
     {name: "Austin Ho",
     position: "Active, Head of Web",
     linkedin: "https://www.linkedin.com/in/aho1628/",
@@ -43,11 +48,6 @@ const contributors = [
     {name: "Arda Ulug",
     position: "Inactive, Course Developer, Curriculum",
     linkedin: "https://www.linkedin.com/in/ardaulug/",
-    status: "inactive"
-    },  
-    {name: "Kaito Garcia",
-    position: "Inactive, Course Developer, Curriculum",
-    linkedin: "https://www.linkedin.com/in/kaitogarcia/ ",
     status: "inactive"
     },  
     {name: "Shannon Zhong",
