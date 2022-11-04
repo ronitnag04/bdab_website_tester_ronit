@@ -2,7 +2,7 @@
 # Big Data at Berkeley's Website
 
 #### Author: Melissa Wong
-#### Modifier(s): Izzie Lau, Sofia Kwee
+#### Modifier(s): Izzie Lau, Sofia Kwee, Erin Hong
 #### Last Modified: 7/22/21
 
 ***
@@ -14,7 +14,7 @@
    2. Navigate into the directory you want to place the website repo.
    3. Run `git clone https://github.com/melissarwong/bdab_website.git` to clone the repo.
    4. Run `cd bdab_website` to access the cloned repo.
-   5. Run `npm install` to automatically install the dependencies listed in the package.json file.
+   5. Run `npm install` and `npm i gatsby` to automatically install the dependencies listed in the package.json file.
    6. Open your preferred code editor and open up the 'bdab_website' folder.
    7. Open the terminal in your code editor or use your previous terminal.
    8. Run `gatsby develop`. If that doesn't work, `npx gatsby develop`.

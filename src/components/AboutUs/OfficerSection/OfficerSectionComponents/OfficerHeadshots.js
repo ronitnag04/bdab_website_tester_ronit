@@ -1,24 +1,25 @@
-import exec1 from "../../../../images/about_us/officer_photos/exec/coco_sun.jpg"
-import exec2 from "../../../../images/about_us/officer_photos/exec/ben.jpg"
-import exec3 from "../../../../images/about_us/officer_photos/exec/sofia.jpg"
-import exec4 from "../../../../images/about_us/officer_photos/exec/arshia.jpg"
+import exec1 from "../../../../images/about_us/officer_photos/exec/sofia.jpg"
+import exec2 from "../../../../images/about_us/officer_photos/exec/arshia.jpg"
+import exec3 from "../../../../images/about_us/officer_photos/projects/erin.jpeg"
+import exec4 from "../../../../images/about_us/officer_photos/exec/lara.jpg"
 import exec5 from "../../../../images/about_us/officer_photos/exec/vinay.jpg"
-import exec6 from "../../../../images/about_us/officer_photos/exec/varsha.jpg"
-import exec7 from "../../../../images/about_us/officer_photos/exec/rishi_jain.jpg"
+import exec6 from "../../../../images/about_us/officer_photos/exec/emily.jpg"
+import exec7 from "../../../../images/about_us/officer_photos/exec/josh.jpg"
 
-import edu1 from "../../../../images/about_us/officer_photos/education/alayna.jpg"
-import edu2 from "../../../../images/about_us/officer_photos/education/can.png"
-import edu3 from "../../../../images/about_us/officer_photos/education/emily.jpg"
-import edu4 from "../../../../images/about_us/officer_photos/education/wajiha.jpeg"
-import edu5 from "../../../../images/about_us/officer_photos/education/joshua.jpg"
+import edu1 from "../../../../images/about_us/officer_photos/education/garima.jpg"
+import edu2 from "../../../../images/about_us/officer_photos/education/can.jpg"
+import edu3 from "../../../../images/about_us/officer_photos/education/sanjana.jpg"
+import edu4 from "../../../../images/about_us/officer_photos/education/eddie.jpeg"
+import edu5 from "../../../../images/about_us/officer_photos/education/austin.jpg"
+import edu6 from "../../../../images/about_us/officer_photos/education/kaito.jpg"
 
-import proj1 from "../../../../images/about_us/officer_photos/projects/bryce.jpg"
-import proj2 from "../../../../images/about_us/officer_photos/projects/erin.jpeg"
+
+import proj1 from "../../../../images/about_us/officer_photos/projects/april.png"
+import proj2 from "../../../../images/about_us/officer_photos/projects/tanvi.jpg"
 import proj3 from "../../../../images/about_us/officer_photos/projects/surya.jpg"
-import proj4 from "../../../../images/about_us/officer_photos/projects/nicole.jpeg"
-import proj5 from "../../../../images/about_us/officer_photos/projects/shreyas_hariharan.png"
-import proj6 from "../../../../images/about_us/officer_photos/projects/meg_khurana.jpg"
-import proj7 from "../../../../images/about_us/officer_photos/projects/sina_ghandian.png"
+import proj4 from "../../../../images/about_us/officer_photos/projects/ayush.jpg"
+import proj5 from "../../../../images/about_us/officer_photos/projects/sarang.jpg"
+import proj6 from "../../../../images/about_us/officer_photos/projects/pruthvi.jpg"
 
 import advisor1 from "../../../../images/about_us/officer_photos/advisors/aurum_kathuria.jpg"
 import advisor2 from "../../../../images/about_us/officer_photos/advisors/ronak_laddha.jpg"
@@ -46,7 +47,8 @@ export const educationArr = [
     edu2,
     edu3,
     edu4,
-    edu5
+    edu5, 
+    edu6
 ];
 
 export const projectArr = [
@@ -55,8 +57,7 @@ export const projectArr = [
     proj3,
     proj4,
     proj5,
-    proj6,
-    proj7
+    proj6
 ];
 
 export const advisorArr = [

@@ -82,11 +82,11 @@ const BerkeleyStudents = () => (
         </DescriptionContainer>
         <DetailsContainer>
             <Description
-                description={<>The application is due on Tuesday, February 1st at 11:59 pm PST.
-                RSVP to our <a href="https://fb.me/e/5jte16Hj3" rel="noreferrer" target="_blank">Facebook event</a> to
-                find the Zoom links!</>}
+                description={<>The application is due on Sunday, September 4th at 10 pm PST.
+                Zoom link for Infosession #3: <a href="https://bit.ly/bdab-infosession3" rel="noreferrer" target="_blank">here!</a> 
+                </>}
             />
-            <a href="http://bit.ly/sp22_generalapp" rel="noreferrer" target="_blank">
+            <a href="http://bit.ly/fa22_generalapp" rel="noreferrer" target="_blank">
                 <Button src={require("../../images/apply/apply_button.png")}/>
             </a>
             <ImageContainer>

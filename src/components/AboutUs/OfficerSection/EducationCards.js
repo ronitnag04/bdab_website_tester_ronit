@@ -15,58 +15,58 @@ const EducationCards = () => (
     <>
         <CardContainer>
             <OfficerCard className="item-0"
-                name="Alayna Matthews"
+                name="Garima Gupta"
                 photoLink={educationArr[0]}
                 role="Head Instructor"
-                interest1="Cooking/Baking"
-                interest2="Music"
-                interest3=" NYT mini crossword puzzles "
-                linkedin="https://www.linkedin.com/in/alaynamatthews/"
+                interest1="Playing basketball"
+                interest2="Watching Marvel movies"
+                interest3="Photography"
+                linkedin="https://www.linkedin.com/in/garima-gupta-a78a66183/"
             />
             <OfficerCard className="item-1"
                 name="Sabi Can Ruso"
                 photoLink={educationArr[1]}
                 role="Head Instructor"
-                interest1="Guitar"
-                interest2="Soccer"
-                interest3="Tennis"
+                interest1="Football (both actually)"
+                interest2="Traveling"
+                interest3="Duolingo"
                 linkedin="https://www.linkedin.com/in/sabi-can-ruso-83648721b/"
             />
             <OfficerCard className="item-2"
-                name="Emily Holmes"
+                name="Sanjana Kotha"
                 photoLink={educationArr[2]}
                 role="Head Instructor"
-                interest1="Road Trips"
-                interest2="Watching Euphoria"
-                interest3="Playing IM Softball"
-                linkedin="https://www.linkedin.com/in/emily--holmes/"
+                interest1="Hand lettering"
+                interest2="Hiking"
+                interest3="Baking"
+                linkedin="https://www.linkedin.com/in/sanjana-kotha/"
             />
             <OfficerCard className="item-3"
-                name="Wajiha Zahid"
+                name="Eddie Liu"
                 photoLink={educationArr[3]}
-                role="Head Instructor"
-                interest1="Basketball"
-                interest2="A24 Films"
-                interest3="Woodworking"
-                linkedin="https://www.linkedin.com/in/wajiha-zahid"
+                role="OC Head of Marketing"
+                interest1="Electronic Dance Music"
+                interest2="Weight Training"
+                interest3="Swimming"
+                linkedin="https://www.linkedin.com/in/efliu/"
             />
             <OfficerCard className="item-4"
-                name="Joshua Chandiramani"
+                name="Austin Ho"
                 photoLink={educationArr[4]}
-                role="Head E-Learning Developer"
-                interest1="Tennis"
-                interest2= "Exploring Berkeley"
-                interest3="Hip Hop Dance"
-                linkedin="https://www.linkedin.com/in/joshua-chandiramani/"
+                role="OC Head of Web Development"
+                interest1="Making Spotify playlists"
+                interest2= "Trying new restaurants"
+                interest3="Playing spikeball on the glade"
+                linkedin="https://www.linkedin.com/in/aho1628/"
             />
             <OfficerCard className="item-5"
-                name="Melissa Wong"
-                photoLink={founderArr[0]}
-                role="Head E-Learning Developer"
-                interest1="Web Development"
-                interest2= "Trying New Foods"
-                interest3="Finding Memes"
-                linkedin="https://www.linkedin.com/in/melissa-r-wong/"
+                name="Kaito Garcia"
+                photoLink={educationArr[5]}
+                role="OC Head of Curriculum"
+                interest1="Basketball"
+                interest2= "Guitar & Piano"
+                interest3="Weighlifting"
+                linkedin="https://www.linkedin.com/in/kaitogarcia/"
             />
 
         </CardContainer>

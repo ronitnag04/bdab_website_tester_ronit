@@ -97,7 +97,7 @@ const NavbarLinks = () => {
       <NavItem to="https://medium.com/big-data-at-berkeley">Blog</NavItem>
       <NavItem to="/apply/">Apply</NavItem>
       <NavItem to="/contactus/">Contact Us</NavItem>
-      <SpecialNavItem to="/online_course/intro/">New Online Course</SpecialNavItem>
+      {/* <SpecialNavItem to="/online_course/intro/">New Online Course</SpecialNavItem> */}
     </>
   )
 }
