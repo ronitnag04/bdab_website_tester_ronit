@@ -47,12 +47,12 @@ const contributors = [
     },
     {name: "Nicole Ni",
     position: "Active, Course Developer, Curriculum",
-    linkedin: "https://www.linkedin.com/in/ardaulug/",
+    linkedin: "https://www.linkedin.com/in/qianni17/",
     status: "active"
     },
     {name: "Celine Choi",
     position: "Active, Course Developer, Curriculum",
-    linkedin: "https://www.linkedin.com/in/ardaulug/",
+    linkedin: "https://www.linkedin.com/in/celinejwchoi",
     status: "active"
     },
     {name: "Gokce Gozek",
