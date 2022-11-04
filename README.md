@@ -3,7 +3,7 @@
 
 #### Author: Melissa Wong
 #### Modifier(s): Izzie Lau, Sofia Kwee, Erin Hong
-#### Last Modified: 7/22/21
+#### Last Modified: 11/2/22
 
 ***
 
@@ -22,9 +22,12 @@
    9. The original site is now running at `http://localhost:8000`!
    10. Open this [document](https://docs.google.com/document/d/1v4oN_-WMnfGSvhRZwCypfTGO-NiJF2tdqPCM4qkUPU0/edit?usp=sharing) to see which files you need to open to make certain changes.
    11. To make edits to the original, update the code, save, and the `localhost` browser will update in real time - gatsby develop is running in the background!
-   11. Update `README.md` by adding your name to the modifiers list.
-   12. Once you've ensured your local copy is working, push changes to Github.
-      - *** Remember the `master` branch is called `main` now!!!!! (use `git push -u origin main`)
+   12. Update `README.md` by adding your name to the modifiers list.
+   13. Once you've ensured your local copy is working, push changes to Github. Follow these 4 steps: 
+      - Run `git status` to check that all the files you added are correct. 
+      - `git add *`
+      - `git commit -m <insert message>`
+      - `git push -u origin main` (Remember the `master` branch is called `main` now!!!!!)
 
 ***
 
