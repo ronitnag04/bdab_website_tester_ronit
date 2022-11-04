@@ -23,11 +23,11 @@
    10. Open this [document](https://docs.google.com/document/d/1v4oN_-WMnfGSvhRZwCypfTGO-NiJF2tdqPCM4qkUPU0/edit?usp=sharing) to see which files you need to open to make certain changes.
    11. To make edits to the original, update the code, save, and the `localhost` browser will update in real time - gatsby develop is running in the background!
    12. Update `README.md` by adding your name to the modifiers list.
-   13. Once you've ensured your local copy is working, push changes to Github. Follow these 4 steps: 
-      - Run `git status` to check that all the files you added are correct. 
-      - `git add *`
-      - `git commit -m <insert message>`
-      - `git push -u origin main` (Remember the `master` branch is called `main` now!!!!!)
+   13. Once you've ensured your local copy is working, push changes to Github
+   14. Run `git status` to check that all the files you added are correct. 
+   15. Run `git add *` to add all files.
+   16. Run `git commit -m <insert message>` to commit your files with an informative message. 
+   17. Finally, run `git push -u origin main`. Remember the `master` branch is called `main` now!
 
 ***
 
