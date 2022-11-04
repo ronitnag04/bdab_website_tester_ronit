@@ -17,7 +17,7 @@ const Module5Page = () => (
             label="5"
             title="The Data Science Life Cycle"
             lesson_vid_link="https://www.youtube.com/embed/X3paOmcrTjQ"
-            slides_link="/"
+            slides_link="https://docs.google.com/presentation/d/1TZTQJNym_QUKgDa3043cX_E5WKou-FsWw_qsjA48TfM/edit?usp=sharing"
             notebook_link="/"
         />
     </>

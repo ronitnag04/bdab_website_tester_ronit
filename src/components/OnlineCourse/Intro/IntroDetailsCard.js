@@ -86,12 +86,14 @@ const IntroDetailsCard = () => {
     return (
         <Container>
             <Label>What You'll Learn</Label>
-            <Details>• Python fundamentals</Details>
-            <Details>• How to manipulate data (NumPy & Pandas)</Details>
-            <Details>• How to visualize data (Seaborn & Matplotlib)</Details>
+            <Details>• Programming fundamentals using Python</Details>
+            <Details>• Essential Python libraries (NumPy and Pandas)</Details>
+            <Details>• Data visualizations using Matplotlib and Seaborn</Details>
             <Details>• The Data Science Life Cycle</Details>
-            <Details>• Basics of Machine Learning</Details>
-            <Details>• SQL ... and so much more!</Details>
+            <Details>• Machine Learning</Details>
+            <Details>• Probability and statistics</Details>
+            <Details>• SQL</Details>
+            <Details>• and so much more!</Details>
 
             <Label>Experience</Label>
             <Details>No prior experience required!</Details>

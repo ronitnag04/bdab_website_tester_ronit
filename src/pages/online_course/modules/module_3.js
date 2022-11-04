@@ -17,7 +17,7 @@ const Module3Page = () => (
             label="3"
             title="Pandas"
             lesson_vid_link="https://www.youtube.com/embed/X3paOmcrTjQ"
-            slides_link="/"
+            slides_link="https://docs.google.com/presentation/d/13jXMHlaS83nVwREXHbFRp7UJYMEKF3xySpFOiHiSH7I/edit?usp=sharing"
             notebook_link="/"
         />
     </>

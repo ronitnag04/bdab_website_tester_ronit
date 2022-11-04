@@ -17,7 +17,7 @@ const Module4Page = () => (
             label="4"
             title="Data Visualizations"
             lesson_vid_link="https://www.youtube.com/embed/X3paOmcrTjQ"
-            slides_link="/"
+            slides_link="https://docs.google.com/presentation/d/14MKfYXxXO6hvX7hlxk495anqN9Cm4RJfMy1vigshWO4/edit?usp=sharing"
             notebook_link="/"
         />
     </>

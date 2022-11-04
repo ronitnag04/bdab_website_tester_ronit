@@ -17,7 +17,7 @@ const Module6Page = () => (
             label="6"
             title="Intro to Machine Learning"
             lesson_vid_link="https://www.youtube.com/embed/X3paOmcrTjQ"
-            slides_link="/"
+            slides_link="https://docs.google.com/presentation/d/1zwpMr25nJZUFyF7sDha7HD8X2rXdNce7KRVZxUfggT8/edit?usp=sharing"
             notebook_link="/"
         />
     </>

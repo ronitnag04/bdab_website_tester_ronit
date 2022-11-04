@@ -5,47 +5,47 @@ import Card from "./ModuleCard"
 const modules = [
     {label: 0,
     title: "Setting Up",
-    description: "Follow a how-to guide on setting up your environment for the course.",
+    description: "This module covers setting up your environment and tools for the course",
     link: "/online_course/modules/module_0/"
    },
    {label: 1, 
    title: "What is Data Science?",
-   description: "Breaks down the fundamentals of data science, what it’s used for, and why it is important.",
+   description: "This module covers the fundamentals of data science and its applications in today's world",
    link: "/online_course/modules/module_1/"
    },
    {label: 2, 
    title: "Python & NumPy",
-   description: "Introduces basic Python and NumPy concepts, and dives into the conceptual idea of Python libraries.",
+   description: "This module covers foundational Python and NumPy concepts for data science.",
    link: "/online_course/modules/module_2/"
    },
    {label: 3,
    title: "Pandas",
-   description: "Covers the basics of the Pandas library, the most fundamental tool in any data scientist’s toolbox.",
+   description: "This module covers the basics of the Pandas library, a fundamental tool in any data scientist's toolbox.",
    link: "/online_course/modules/module_3/"
    },
    {label: 4,
    title: "Data Visualizations",
-   description: "Dives into how to use the Seaborn and Matplotlib libraries to create beautiful and effective data visualizations!",
+   description: "This module covers hoe to use the Seaborn and Matplotlib libraries to create beautiful and effective data visualizations.",
    link: "/online_course/modules/module_4/"
    },
    {label: 5,
    title: "The Data Science Life Cycle",
-   description: "Covers the steps of the data science life cycle, including exploratory data analysis and the data cleaning process.",
+   description: "This module covers the stages of the data science life cycle, a comprehensive methodology for tackling problems with data science.",
    link: "/online_course/modules/module_5/"
    },
    {label: 6,
    title: "Intro to Machine Learning",
-   description: "Introduces the growing  applications of Machine Learning, and covers how to build basic models.",
+   description: "This module covers how to build machine learning models and utilize them to solve problems.",
    link: "/online_course/modules/module_6/"
    },
    {label: 7,
    title: "Statistics in Data Science",
-   description: "Provides a review on probability and hypothesis testing, and demonstrates how to use them to your advantage.",
+   description: "This module covers probability and hypothesis testing, and how data scientists use these tools in practice.",
    link: "/online_course/modules/module_7/"
    },
    {label: 8,
    title: "SQL",
-   description: "Dives into how to use SQL to create tables and query databases.",
+   description: "This module covers the SQL programming language and how to create tables and query databases for powerful data manipulation.",
    link: "/online_course/modules/module_8/"
    }
 ]

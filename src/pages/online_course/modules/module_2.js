@@ -17,7 +17,7 @@ const Module2Page = () => (
             label="2"
             title="Python & NumPy"
             lesson_vid_link="https://www.youtube.com/embed/X3paOmcrTjQ"
-            slides_link="/"
+            slides_link="https://docs.google.com/presentation/d/1yW2RcJewoqPzFAsNyDyXKxUY3kiaP4m64z5uPxcLjFI/edit?usp=sharing"
             notebook_link="/"
         />
     </>

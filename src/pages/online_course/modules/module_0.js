@@ -16,8 +16,8 @@ const Module0Page = () => (
         <VideoEmbed
             label="0"
             title="Setting Up"
-            lesson_vid_link="https://www.youtube.com/embed/X3paOmcrTjQ"
-            slides_link="/"
+            lesson_vid_link="https://youtu.be/sEbVMs8ahwk"
+            slides_link="https://docs.google.com/presentation/d/1qCYT2syb0oA2Kn9i1K_He3L62TDUwon-AxSElCIlS1o/edit?usp=sharing"
             notebook_link="/"
         />
     </>

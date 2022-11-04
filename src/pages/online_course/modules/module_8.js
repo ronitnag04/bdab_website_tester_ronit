@@ -17,7 +17,7 @@ const Module8Page = () => (
             label="8"
             title="SQL"
             lesson_vid_link="https://www.youtube.com/embed/X3paOmcrTjQ"
-            slides_link="/"
+            slides_link="https://docs.google.com/presentation/d/1GUqJw0tLv_vdmNALugF3iO23OaJfg9DrF_z7ugO0XB0/edit?usp=sharing"
             notebook_link="/"
         />
     </>

@@ -30,6 +30,56 @@ const contributors = [
     linkedin: "https://www.linkedin.com/in/danielle-n-wong/",
     status: "active"
     },
+    {name: "Arda Ulug",
+    position: "Active, Course Developer, Web",
+    linkedin: "https://www.linkedin.com/in/ardaulug/",
+    status: "active"
+    },
+    {name: "Ronit Nagarapu",
+    position: "Active, Course Developer, Web",
+    linkedin: "https://www.linkedin.com/in/ronit-nagarapu",
+    status: "active"
+    },
+    {name: "Sean She",
+    position: "Active, Course Developer, Web",
+    linkedin: "https://www.linkedin.com/in/sean-she",
+    status: "active"
+    },
+    {name: "Nicole Ni",
+    position: "Active, Course Developer, Curriculum",
+    linkedin: "https://www.linkedin.com/in/ardaulug/",
+    status: "active"
+    },
+    {name: "Celine Choi",
+    position: "Active, Course Developer, Curriculum",
+    linkedin: "https://www.linkedin.com/in/ardaulug/",
+    status: "active"
+    },
+    {name: "Gokce Gozek",
+    position: "Active, Course Developer, Curriculum",
+    linkedin: "https://www.linkedin.com/in/ardaulug/",
+    status: "active"
+    },
+    {name: "Shannon Zhong",
+    position: "Active, Course Developer, Marketing",
+    linkedin: "https://www.linkedin.com/in/ardaulug/",
+    status: "active"
+    },
+    {name: "Karina Parikh",
+    position: "Active, Course Developer, Marketing",
+    linkedin: "https://www.linkedin.com/in/ardaulug/",
+    status: "active"
+    },
+    {name: "Ryan Shah",
+    position: "Active, Course Developer, Marketing",
+    linkedin: "https://www.linkedin.com/in/ardaulug/",
+    status: "active"
+    },
+    {name: "Cadence Hsu",
+    position: "Active, Course Developer, Marketing",
+    linkedin: "https://www.linkedin.com/in/ardaulug/",
+    status: "active"
+    },
     {name: "Melissa Wong",
     position: "Inactive, Head E-Learning Developer, Web",
     linkedin: "https://www.linkedin.com/in/melissa-r-wong/",
@@ -44,17 +94,7 @@ const contributors = [
     position: "Inactive, Course Developer, Web",
     linkedin: "https://www.linkedin.com/in/hrishikesh-ingale/",
     status: "inactive"
-    },   
-    {name: "Arda Ulug",
-    position: "Inactive, Course Developer, Curriculum",
-    linkedin: "https://www.linkedin.com/in/ardaulug/",
-    status: "inactive"
-    },  
-    {name: "Shannon Zhong",
-    position: "Inactive, Course Developer, Curriculum",
-    // linkedin: "/",
-    status: "inactive"
-    },  
+    },
     {name: "Sissi Li",
     position: "Inactive, Course Developer, Curriculum",
     linkedin: "https://www.linkedin.com/in/sissi-li-28061b1a2/",
