@@ -18,7 +18,8 @@ const Module6Page = () => (
             title="Intro to Machine Learning"
             lesson_vid_link="https://www.youtube.com/embed/X3paOmcrTjQ"
             slides_link="https://docs.google.com/presentation/d/1zwpMr25nJZUFyF7sDha7HD8X2rXdNce7KRVZxUfggT8/edit?usp=sharing"
-            notebook_link="/"
+            assignment_notebook_link="https://deepnote.com/workspace/big-data-at-berkeley-447a-f968b37c-a5f2-41e2-bcd6-76e997077bdf/project/Module-6-dbe3d75d-e076-4d82-9668-2cacd19d46c5/notebook/Assignment%20Notebook-97edef24f6b54bc2ae40a7bebf3df628"
+            lesson_notebook_link="/"
         />
     </>
   </>

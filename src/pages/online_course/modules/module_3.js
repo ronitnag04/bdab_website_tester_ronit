@@ -18,7 +18,8 @@ const Module3Page = () => (
             title="Pandas"
             lesson_vid_link="https://www.youtube.com/embed/X3paOmcrTjQ"
             slides_link="https://docs.google.com/presentation/d/13jXMHlaS83nVwREXHbFRp7UJYMEKF3xySpFOiHiSH7I/edit?usp=sharing"
-            notebook_link="/"
+            assignment_notebook_link="https://deepnote.com/workspace/big-data-at-berkeley-447a-f968b37c-a5f2-41e2-bcd6-76e997077bdf/project/Module-3-e301d0ea-b5a7-47b0-9029-0d8d16be135b/notebook/M3%20Assignment%20Notebook-d778beb661884a7f9c5057d3a60a9ce8"
+            lesson_notebook_link="https://deepnote.com/workspace/big-data-at-berkeley-447a-f968b37c-a5f2-41e2-bcd6-76e997077bdf/project/Module-3-e301d0ea-b5a7-47b0-9029-0d8d16be135b/notebook/M3%20Lesson%20Notebook-61d76424637c478fbe8c453c79850633"
         />
     </>
   </>

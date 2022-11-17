@@ -154,7 +154,7 @@ const VideoEmbed = (props) => {
                     width="730px"
                     height="410px"
                 />
-                <MoreMaterialsCard slides_link={props.slides_link} notebook_link={props.notebook_link}/>
+                <MoreMaterialsCard slides_link={props.slides_link} lesson_notebook_link={props.lesson_notebook_link} assignment_notebook_link={props.assignment_notebook_link}/>
             </TopContainer>
             {showNextButton && (
                 <ButtonItem onClick={() => { setShowNextButton(false) }}>

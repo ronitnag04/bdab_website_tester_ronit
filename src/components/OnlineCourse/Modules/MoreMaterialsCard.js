@@ -53,7 +53,8 @@ const MoreMaterialsCard = (props) => {
         <Container>
             <Title>Materials To Have Open</Title>
             <LinkItem to={props.slides_link} rel="noreferrer" target="_blank">Slides</LinkItem>
-            <LinkItem to={props.notebook_link} rel="noreferrer" target="_blank">Jupyter Notebook</LinkItem>
+            <LinkItem to={props.lesson_notebook_link} rel="noreferrer" target="_blank">Lesson Notebook</LinkItem>
+            <LinkItem to={props.assignment_notebook_link} rel="noreferrer" target="_blank">Assignment Notebook</LinkItem>
         </Container>
     )
 }

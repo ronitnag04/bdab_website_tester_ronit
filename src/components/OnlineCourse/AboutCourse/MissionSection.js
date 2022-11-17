@@ -48,11 +48,7 @@ const MissionSection = () => (
         <SectionTitle title="Our Mission"></SectionTitle>
         <DescriptionContainer>
             <Description
-                description="Our goal is to make data science education accessible to those of 
-                all ages and locations. We aim to use our skills and educational experiences to 
-                prepare the next generation of data scientists and thinkers. This self-paced 
-                course will equip you with the skills and fundamental knowledge needed to succeed 
-                in the real world!"
+                description="We aim to make data science accessible to everyone. We endeavor to use our skills and educational experiences to prepare the next generation of data scientists and thinkers. This self-paced online data science course will equip you with the skills needed to engage in data science practices in the real world!"
             />
             <Contact>For questions, contact us at bigdata.berkeley@gmail.com!</Contact>
         </DescriptionContainer>

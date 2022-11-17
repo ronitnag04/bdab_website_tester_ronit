@@ -18,7 +18,8 @@ const Module1Page = () => (
             title="What is Data Science?"
             lesson_vid_link="https://www.youtube.com/embed/X3paOmcrTjQ"
             slides_link="/"
-            notebook_link="/"
+            assignment_notebook_link="/"
+            lesson_notebook_link="/"
         />
     </>
   </>

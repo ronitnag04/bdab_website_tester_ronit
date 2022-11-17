@@ -25,7 +25,7 @@ const modules = [
    },
    {label: 4,
    title: "Data Visualizations",
-   description: "This module covers hoe to use the Seaborn and Matplotlib libraries to create beautiful and effective data visualizations.",
+   description: "This module covers how to use the Seaborn and Matplotlib libraries to create beautiful and effective data visualizations.",
    link: "/online_course/modules/module_4/"
    },
    {label: 5,
