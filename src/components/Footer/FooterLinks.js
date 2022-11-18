@@ -104,6 +104,7 @@ const FooterLinks = () => {
         <FooterTitle>Courses</FooterTitle>
         <FooterItem to='/courses#bootcamp'>Big Data Bootcamp</FooterItem>
         <FooterItem to='/courses#online_course'>New Online Course</FooterItem>
+        <FooterItem to='/online_course/intro/'>Beta V1 (Not Ready!)</FooterItem>
       </FooterItemContainer>
    
       <FooterItemContainer className="item-3">
