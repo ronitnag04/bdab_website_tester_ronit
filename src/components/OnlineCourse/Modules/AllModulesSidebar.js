@@ -9,7 +9,7 @@ const z_index = 5
 const SidebarContainer = styled.div`
     height:100%;
     width:${openwidth}vw;
-    position:absolute;
+    position:fixed;
     z-index: ${z_index};
     top: 10%;
     transition: ${transitionTime};
