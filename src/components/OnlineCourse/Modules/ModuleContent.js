@@ -4,6 +4,7 @@ import ModuleCommonQuestions from './ModuleCommonQuestions'
 import ModuleResources from './ModuleResources'
 import ModuleVideosSidebar from './ModuleVideosSidebar'
 import ModuleVideo from './ModuleVideo'
+import AllModulesSidebar from './AllModulesSidebar'
 
 const OuterContainer = styled.div`
     display: flex;
@@ -16,9 +17,6 @@ const OuterContainer = styled.div`
     min-height: 100%;
     overflow:auto;
     padding-bottom:100px;
-
-    
-
 `
 
 const BackgroundImg = styled.img`
@@ -35,10 +33,10 @@ const InnerContainer = styled.div`
   flex-flow: column wrap;
   align-items: flex-start;
   position: absolute;
-  width: 80%;
-  top: 20%;
-  left: 5%;
-  right: 10%;
+  width: 80vw;
+  top: 20vh;
+  left: 5vw;
+  right: 10vw;
   transform: translate(5%, 5%);
 
 
@@ -46,9 +44,9 @@ const InnerContainer = styled.div`
   .item-1 { order: 1; }
   .item-2 { order: 2; }
 
-  @media (max-width: 1700px) { top: 15%; }
-  @media (max-width: 1500px) { top: 16% }
-  @media (max-width: 1400px) { top: 15%; right: 40%;}
+  @media (max-width: 1700px) { top: 10%; }
+  @media (max-width: 1500px) { top: 10% }
+  @media (max-width: 1400px) { top: 10%; right: 40%;}
   @media (max-width: 900px) { top: 12%; right: 20%; }
   @media (max-width: 570px) { top: 11%; right: 20%; }
   @media (max-height: 600px) { top: 20% }
@@ -160,12 +158,19 @@ const BottomContainer = styled.div`
 
 const ModuleContent = (props) => {
     const [curVideo, setCurVideo] = React.useState(1)
+    const [showSidebar, setShowSidebar] = React.useState(false)
 
   return (
     <OuterContainer>
         <BackgroundImg src={require("../../../images/footer_art.png")} alt="art"/>
+        <AllModulesSidebar
+          showSidebar={showSidebar}
+          setShowSidebar={setShowSidebar}
+        />
 
         <InnerContainer>
+            
+
             <TitleContainer>
                 <Label>Module {props.label}</Label>
                 <Title>{props.title}</Title>

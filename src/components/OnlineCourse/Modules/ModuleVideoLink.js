@@ -23,7 +23,7 @@ const ModuleVideoLinkText = styled.h1`
     word-spacing: 2px;
     text-align: left;
     padding: 10px 3px;
-    overflow:auto;
+    overflow-wrap: break-word;
 `
 
 
