@@ -1,20 +1,23 @@
 import React from 'react'
 import styled from 'styled-components'
 
+const transitionTime = '0.5s'
+const openwidth = '20vw'
+const closewidth = '0vw'
+
 const SidebarContainer = styled.div`
     height:100%;
     position:absolute;
     z-index: 5;
     top: 10%;
     left: 0;
-    transition: 0.5s;
+    transition: ${transitionTime};
     background-color: #214667;
     overflow: hidden;
 
     a{
       text-decoration: none;
       display: block;
-      transition: 0.3s;
     }
 
 `
@@ -28,7 +31,11 @@ const LinkTitle = styled.h1`
     padding-right:20px;
 	  text-decoration: none;
     font-weight:500;
-    overflow-wrap: break-word;
+    overflow:hidden;
+`
+
+const Link = styled.div`
+  overflow:hidden;
 `
 
 const SidebarImg = styled.img`
@@ -36,7 +43,7 @@ const SidebarImg = styled.img`
   position:fixed;
   top: 15%;
   z-index: 5;
-  transition: 0.5s;
+  transition: ${transitionTime};
 
   :hover{
     filter:contrast(2);
@@ -57,7 +64,7 @@ const SidebarTab = ({setShowSidebar, showSidebar}) =>{
           >
           <SidebarImg 
             src={require('../../../images/online_course/sidebar_tab.png')}
-            style={showSidebar ? {left:'20vw'} : {left:'0vw'}}>
+            style={showSidebar ? {left:openwidth} : {left:closewidth}}>
           </SidebarImg>
       </button>
     </div>
@@ -68,9 +75,12 @@ const SidebarTab = ({setShowSidebar, showSidebar}) =>{
 
 const ModuleLink = ({moduleNum, title}) => {
   return(
-    <a href={`https://bd.berkeley.edu/online_course/modules/module_${moduleNum}`}>
-      <LinkTitle>Module {moduleNum}: {title}</LinkTitle>
-    </a>
+    <Link>
+      <a href={`https://bd.berkeley.edu/online_course/modules/module_${moduleNum}`}>
+        <LinkTitle>Module {moduleNum}: {title}</LinkTitle>
+      </a>
+    </Link>
+    
   )
 }
 
@@ -78,7 +88,7 @@ const AllModulesSidebar = (props) => {
   return (
     <>
         <SidebarContainer
-          style={props.showSidebar === true ? {width:'20vw'} : {width:'0vw'}}
+          style={props.showSidebar === true ? {width:openwidth} : {width:closewidth}}
         >
           <ModuleLink 
               moduleNum= {0}
