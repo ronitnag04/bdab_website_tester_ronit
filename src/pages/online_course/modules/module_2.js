@@ -88,6 +88,7 @@ const Module2Page = () => (
             module_videos_links={ModuleVideosLinks}
             module_common_questions={ModuleCommonQuestions}
             module_resources={ModuleResources}
+            currentPage={2}
         />
     </>
   </>

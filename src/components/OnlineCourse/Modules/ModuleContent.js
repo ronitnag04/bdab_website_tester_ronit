@@ -166,6 +166,7 @@ const ModuleContent = (props) => {
         <AllModulesSidebar
           showSidebar={showSidebar}
           setShowSidebar={setShowSidebar}
+          currentPage={props.currentPage}
         />
 
         <InnerContainer>
