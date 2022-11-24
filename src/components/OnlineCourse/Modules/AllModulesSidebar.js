@@ -4,11 +4,12 @@ import styled from 'styled-components'
 const transitionTime = '0.5s'
 const openwidth = '20vw'
 const closewidth = '0vw'
+const z_index = 5 
 
 const SidebarContainer = styled.div`
     height:100%;
     position:absolute;
-    z-index: 5;
+    z-index: ${z_index};
     top: 10%;
     left: 0;
     transition: ${transitionTime};
@@ -18,6 +19,9 @@ const SidebarContainer = styled.div`
     a{
       text-decoration: none;
       display: block;
+    }
+    a:hover{
+      -webkit-text-stroke-width: 1px;
     }
 
 `
@@ -34,15 +38,12 @@ const LinkTitle = styled.h1`
     overflow:hidden;
 `
 
-const Link = styled.div`
-  overflow:hidden;
-`
 
 const SidebarImg = styled.img`
   height:20vh;
   position:fixed;
   top: 15%;
-  z-index: 5;
+  z-index: ${z_index};
   transition: ${transitionTime};
 
   :hover{
@@ -75,11 +76,9 @@ const SidebarTab = ({setShowSidebar, showSidebar}) =>{
 
 const ModuleLink = ({moduleNum, title}) => {
   return(
-    <Link>
-      <a href={`https://bd.berkeley.edu/online_course/modules/module_${moduleNum}`}>
-        <LinkTitle>Module {moduleNum}: {title}</LinkTitle>
-      </a>
-    </Link>
+    <a href={`https://bd.berkeley.edu/online_course/modules/module_${moduleNum}`}>
+      <LinkTitle>Module {moduleNum}: {title}</LinkTitle>
+    </a>
     
   )
 }
@@ -141,10 +140,6 @@ const AllModulesSidebar = (props) => {
           setShowSidebar={props.setShowSidebar}
           showSidebar={props.showSidebar}
         />
-      
-    
-    
-      
     </>    
   )
 }
