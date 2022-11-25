@@ -84,12 +84,11 @@ const Module2Page = () => (
     <>
         <Navbar/>
         <ModuleContent
-            label="2"
             title="Python & NumPy"
+            currentPage={2}
             module_videos_links={ModuleVideosLinks}
             module_common_questions={ModuleCommonQuestions}
             module_resources={ModuleResources}
-            currentPage={2}
         />
     </>
   </>

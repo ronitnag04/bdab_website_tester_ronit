@@ -14,7 +14,7 @@ const OuterContainer = styled.div`
     background-color: #032345;
     width: 100%;
     height:auto;
-    min-height: 160%;
+    min-height: 150%;
     overflow:auto;
     padding-bottom:100px;
 `
@@ -173,7 +173,7 @@ const ModuleContent = (props) => {
             
 
             <TitleContainer>
-                <Label>Module {props.label}</Label>
+                <Label>Module {props.currentPage}</Label>
                 <Title>{props.title}</Title>
             </TitleContainer>
 
