@@ -14,14 +14,14 @@ const OuterContainer = styled.div`
     background-color: #032345;
     width: 100%;
     height:auto;
-    min-height: 100%;
+    min-height: 160%;
     overflow:auto;
     padding-bottom:100px;
 `
 
 const BackgroundImg = styled.img`
   opacity: .4;
-  position: absolute;
+  position: fixed;
   background-size: cover;
   background-attachment: fixed;
 `
@@ -44,13 +44,13 @@ const InnerContainer = styled.div`
   .item-1 { order: 1; }
   .item-2 { order: 2; }
 
-  @media (max-width: 1700px) { top: 10%; }
-  @media (max-width: 1500px) { top: 10% }
-  @media (max-width: 1400px) { top: 10%; right: 40%;}
-  @media (max-width: 900px) { top: 12%; right: 20%; }
-  @media (max-width: 570px) { top: 11%; right: 20%; }
-  @media (max-height: 600px) { top: 20% }
-  @media (max-height: 500px) { top: 30% }
+  @media (max-width: 1700px) { top: 5%; }
+  @media (max-width: 1500px) { top: 5% }
+  @media (max-width: 1400px) { top: 5%; right: 40%;}
+  @media (max-width: 900px) { top: 5%; right: 20%; }
+  @media (max-width: 570px) { top: 5%; right: 20%; }
+  @media (max-height: 600px) { top: 5% }
+  @media (max-height: 500px) { top: 5% }
   
 `
 

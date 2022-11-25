@@ -49,25 +49,26 @@ const ModuleCommonQuestions = [
   },
 ]
 
+// Images must be in ../../../images/online_course/
 const ModuleResources = [
   {'name': 'Deepnote Lesson',
-   'icon': 'deepnote',
+   'icon': 'deepnote_button.png',
    'link': 'https://deepnote.com/workspace/big-data-at-berkeley-447a-f968b37c-a5f2-41e2-bcd6-76e997077bdf/project/Module-2-9e173e50-6ab0-48b5-99a8-70e6bd3491e7/notebook/M2%20Lesson%20Notebook-4bad20ec8db44534b7c25638921fc8ff'
   },
   {'name': 'Deepnote Assignment',
-   'icon': 'deepnote',
+   'icon': 'deepnote_button.png',
    'link': 'https://deepnote.com/workspace/big-data-at-berkeley-447a-f968b37c-a5f2-41e2-bcd6-76e997077bdf/project/Module-2-9e173e50-6ab0-48b5-99a8-70e6bd3491e7/notebook/M2%20Assignment%20Notebook-b4cc8830c1ca473a84b731e12b7d4ee0'
   },
   {'name': 'Q&A Form',
-   'icon': 'google_forms',
+   'icon': 'google_forms_button.png',
    'link': 'https://www.google.com'
   },
   {'name': 'Video Playlist',
-   'icon': 'youtube',
+   'icon': 'youtube_button.png',
    'link': 'https://www.google.com'
   },
   {'name': 'Presentation Slides',
-   'icon': 'google_slides',
+   'icon': 'google_slides_button.png',
    'link': 'https://docs.google.com/presentation/d/1yW2RcJewoqPzFAsNyDyXKxUY3kiaP4m64z5uPxcLjFI/edit?usp=sharing'
   },
 ]
